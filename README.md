@@ -3,8 +3,7 @@
 
 ---
 
-**REMINDER**
-When working with Infernum, make sure to go to Dream Maker > Build > Preferences for Farweb > then tick the "Automatically set FILE_DIR for sub-directories"
+**REMINDER:** When working with Infernum, make sure to go to Dream Maker > Build > Preferences for Farweb > then tick the "Automatically set FILE_DIR for sub-directories"
 
 ---
 
