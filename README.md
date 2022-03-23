@@ -1,9 +1,10 @@
-# OpenSourceWeb
+# Infernum
+*An OpenSourceWeb downstream*
 
 ---
 
 **REMINDER**
-When working with OpenSourceWeb, make sure to go to Dream Maker > Build > Preferences for Farweb > then tick the "Automatically set FILE_DIR for sub-directories"
+When working with Infernum, make sure to go to Dream Maker > Build > Preferences for Farweb > then tick the "Automatically set FILE_DIR for sub-directories"
 
 ---
 
