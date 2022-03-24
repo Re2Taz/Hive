@@ -3,7 +3,7 @@
 
 ---
 
-**Information:** Discord server: https://discord.gg/FhpEuBEMpM
+**INFORMATION:** Discord server: https://discord.gg/FhpEuBEMpM
 
 ---
 
