@@ -151,6 +151,7 @@ var/list/cuckoldlist = list()
 	if(iszombie(H))		return
 	if(istype(H.species, /datum/species/human/alien)) return //stopping a problem before it ever happens
 	if(istype(src.species, /datum/species/human/alien)) return
+	if(1) return
 	make_interaction(machine)
 
 /mob/proc/make_interaction()
