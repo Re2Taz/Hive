@@ -136,6 +136,7 @@
 
 var/list/cuckoldlist = list()
 /mob/living/carbon/human/MouseDrop_T(mob/M as mob, mob/user as mob)
+	if(1) return
 	if(M == src || src == usr && src.ConDom)
 		if(do_after(M, 10))
 			src.drop_from_inventory(src.ConDom)
@@ -151,7 +152,6 @@ var/list/cuckoldlist = list()
 	if(iszombie(H))		return
 	if(istype(H.species, /datum/species/human/alien)) return //stopping a problem before it ever happens
 	if(istype(src.species, /datum/species/human/alien)) return
-	if(1) return
 	make_interaction(machine)
 
 /mob/proc/make_interaction()
