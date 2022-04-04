@@ -210,11 +210,6 @@
 	happiness = -12
 	timeout = 1800
 
-/datum/happiness_event/badsex
-	description = "<span class='badmood'>• Ugh, that sex was horrible.</span>\n"
-	happiness = -4
-	timeout = 1800
-
 /datum/happiness_event/learningfail
 	description = "<span class='badmood'>• I couldn't learn anything, I feel so dumb!</span>\n"
 	happiness = -4
@@ -286,21 +281,6 @@
 	happiness = 2
 	timeout = 600
 
-//Good sex here too because why not.
-/datum/happiness_event/goodsex
-	description = "<span class='goodmood'>•</span> <span class='passivebold'>That sex was really good!\n"
-	happiness = 4
-	timeout = 1800
-
-/datum/happiness_event/regurgipleasure
-	description = "<span class='goodmood'>•</span> <span class='passivebold'>That felt really good!\n"
-	happiness = 4
-
-/datum/happiness_event/magazinepleasure
-	description = "<span class='goodmood'>•</span> <span class='passivebold'>That felt really good!\n"
-	happiness = 4
-	timeout = 1800
-
 //Unused so far but I want to remember them to use them later.
 /datum/happiness_event/disturbing
 	description = "● I recently saw something disturbing</span>\n"
@@ -340,10 +320,6 @@
 	description = "<span class='goodmood'>•</span> <span class='passivebold'>I've been coronated.</span>\n"
 	happiness = 12
 
-/datum/happiness_event/misc/pregnantgood
-	description = "<span class='goodmood'>•</span> <span class='passivebold'>I'm probably pregnant!</span>\n"
-	happiness = 5
-
 /datum/happiness_event/misc/sheekos
 	description = "<span class='goodmood'>•</span> <span class='passivebold'>Sheekos!</span>\n"
 	happiness = 5
@@ -355,15 +331,6 @@
 /datum/happiness_event/misc/donate
 	description = "<span class='goodmood'>•</span> <span class='passivebold'>I'm helping the lord.</span>\n"
 	happiness = 5
-
-/datum/happiness_event/misc/pregnantbad
-	description = "<span class='badmood'>• I'm probably pregnant, oh no!</span>\n"
-	happiness = -5
-
-/datum/happiness_event/misc/needsex
-	description = "<span class='badmood'>• I NEED SOMEONE TO FUCK!</span>\n"
-	happiness = -30
-
 
 //VICE
 /datum/happiness_event/reflect
@@ -392,17 +359,8 @@
 	description = "<span class='badmood'>• I need a kiss from someone.</span>\n"
 	happiness = -15
 
-
-/datum/happiness_event/vice/necro
-	description = "<span class='badmood'>• I need someone more rotten than me.</span>\n"
-	happiness = -15
-
 /datum/happiness_event/vice/pyromaniac
 	description = "<span class='badmood'>• I need to see the world burn.</span>\n"
-	happiness = -15
-
-/datum/happiness_event/vice/sexo
-	description = "<span class='badmood'>• I need someone to fuck.</span>\n"
 	happiness = -15
 
 /datum/happiness_event/vice/alco
@@ -427,10 +385,6 @@
 
 /datum/happiness_event/vice/maso
 	description = "<span class='badmood'>• I need to feel pain.</span>\n"
-	happiness = -15
-
-/datum/happiness_event/vice/voyeur
-	description = "<span class='badmood'>• I need to see someone do it.</span>\n"
 	happiness = -15
 
 /datum/happiness_event/wonder

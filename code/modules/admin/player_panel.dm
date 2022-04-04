@@ -427,17 +427,6 @@
 					dat += "<tr><td><i>Changeling not found!</i></td></tr>"
 			dat += "</table>"
 
-
-		if(ticker.mode.succubi.len > 0)
-			dat += "<br><table cellspacing=5><tr><td><B>Raiders</B></td><td></td><td></td></tr>"
-			for(var/datum/mind/succubus in ticker.mode.succubi)
-				var/mob/M = succubus.current
-				if(M)
-					dat += "<tr><td><a href='?src=\ref[src];adminplayeropts=\ref[M]'>[M.real_name]</a>[M.client ? "" : " <i>(logged out)</i>"][M.stat == 2 ? " <b><font color=red>(DEAD)</font></b>" : ""]</td>"
-					dat += "<td><A href='?src=\ref[usr];priv_msg=\ref[M]'>PM</A></td>"
-					dat += "<td><A HREF='?src=\ref[src];traitor=\ref[M]'>Show Objective</A></td></tr>"
-			dat += "</table>"
-
 		if(ticker.mode.cult.len)
 			dat += "<br><table cellspacing=5><tr><td><B>Cultists</B></td><td></td></tr>"
 			for(var/datum/mind/N in ticker.mode.cult)

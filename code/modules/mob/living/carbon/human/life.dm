@@ -60,8 +60,6 @@
 	blinded = null
 	fire_alert = 0 //Reset this here, because both breathe() and handle_environment() have a chance to set it.
 	emote_cooldown = max(emote_cooldown - 1, 0)
-	if(erpcooldown > 1)
-		erpcooldown -= rand(1,2)
 	//GAMBIARRACODING TALVEZ NAO FUNFE!!
 	if(!can_stand && !buckled)
 		src.resting = TRUE
@@ -187,8 +185,6 @@
 		handle_stomach()
 
 		updateshock()
-
-		handle_lust()
 
 		handle_pain()
 

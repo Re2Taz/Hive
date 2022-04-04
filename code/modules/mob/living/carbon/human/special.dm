@@ -592,7 +592,6 @@
 					src.my_skills.ADD_SKILL(SKILL_MELEE, 2)
 					src.my_stats.st += 3
 					src.my_stats.ht += 1
-					src.virgin = 0
 			if("fragile")
 				warning("Special de: [ckey ? "CKEY: [ckey]" : "SEM CKEY"] carregou.")
 				src.my_stats.ht -= 4
@@ -643,9 +642,6 @@
 				warning("Special de: [ckey ? "CKEY: [ckey]" : "SEM CKEY"] carregou.")
 				src.my_skills.CHANGE_SKILL(SKILL_MASON, rand(12,14))
 				src.my_skills.CHANGE_SKILL(SKILL_ENGINE, rand(12,14))
-			if("succubus")
-				if(src.gender == "female")
-					src.make_succubi()
 			if("gigantism")
 				src.Altista()
 			if("archmortus")
@@ -713,9 +709,6 @@
 					src.my_skills.ADD_SKILL(SKILL_PARTY, rand(12,15))
 					src.my_skills.ADD_SKILL(SKILL_MELEE, 6)
 					src.my_stats.st += 3
-			if("castrated")
-				if(src.age >= 18 && src.gender == MALE)
-					src.mutilated_genitals = 1
 			if("circusfreak")
 				if(src.age >= 18)
 					src.my_skills.ADD_SKILL(SKILL_MUSIC, 13)

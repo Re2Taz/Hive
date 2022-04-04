@@ -46,8 +46,6 @@
 
 	if(reflectneed >= 750)
 		text += "<a href='#' id='ReflectExperience'>Reflect your Experience!<br></a>"
-	if(src?.mind?.succubus)
-		text += "<a href='#' id='teleportSlaves'>Teleport Slaves<br></a><a href='#' id='punishSlave'>Punish Slave<br></a> <a href='#' id='killSlave'>Kill Slave<br></a>"
 	if(src.verbs.Find(/mob/living/carbon/human/proc/plantEgg))
 		text += "<a href='#' id='plantEgg'>Lay Egg<br></a>"
 	if(src.verbs.Find(/mob/living/carbon/human/proc/plantWeeds))
@@ -118,8 +116,6 @@
 		if(old_ways.god == "Xom")
 			text += "THOU ARE XOM'S TOY"
 
-	if(src?.mind?.succubus)
-		text += "Slaves : [src.mind.succubus.succubusSlaves.len]"
 	if(ticker.mode.config_tag == "siege" && siegesoldier)
 		var/datum/game_mode/siege/S = ticker.mode
 		text += "Losses: [S.losses]/[S.max_losses]"
@@ -302,8 +298,6 @@
 			verbs += list(list("Wonders", "Wonders"))
 		if(H.reflectneed >= 750)
 			verbs += list(list("ReflectExperience", "Reflect your Experience!"))
-		if(H?.mind?.succubus)
-			verbs += list(list("teleportSlaves", "Teleport Slaves"), list("killSlave", "Kill Slave"))
 		if(istype(H?.species, /datum/species/human/alien))
 			verbs += list(list("plantWeeds", "Plant Weeds"), list("plantEgg", "Lay Egg"))
 

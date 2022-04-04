@@ -28,8 +28,6 @@
 	var/wait = 3
 	if (!istype(M)) // not sure if this is the right thing...
 		return
-	if (depotenzia(M, user))
-		return
 
 	if (can_operate(M))        //Checks if mob is lying down on table for surgery
 		if (do_surgery(M,user,src))

@@ -209,12 +209,6 @@
 
 /datum/species/proc/handle_post_spawn(var/mob/living/carbon/human/H) //Handles anything not already covered by basic species assignment.
 	add_inherent_verbs(H)
-	if(prob(H.age >= 40))
-		H.virgin = FALSE
-	if(prob(H.age))
-		H.virgin = TRUE
-	else
-		H.virgin = FALSE
 
 /datum/species/proc/handle_death(var/mob/living/carbon/human/H) //Handles any species-specific death events (such as dionaea nymph spawns).
 	if(flags & IS_SYNTHETIC)

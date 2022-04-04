@@ -74,7 +74,6 @@
 	H.status_flags &= ~CANSTUN
 	H.status_flags &= ~CANWEAKEN
 	H.status_flags &= ~CANPARALYSE
-	H.mutilate_genitals()
 	H.verbs += /mob/living/carbon/human/proc/plantWeeds
 	H.verbs += /mob/living/carbon/human/proc/plantEgg
 

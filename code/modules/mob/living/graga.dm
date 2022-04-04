@@ -284,10 +284,8 @@
 
 	src.zone_sel = new /obj/screen/zone_sel( null )
 
-	potenzia = rand(16, 25)
 	if(name == "Negresco")
 		color = "#A52A2A"
-		potenzia = rand(25, 40)
 
 	if(!mind)
 		mind = new /datum/mind(src)

@@ -41,24 +41,6 @@
 	neck_use = TRUE
 	item_worth = 5
 
-/obj/item/clothing/head/amulet/lechery
-	name = "grey amulet"
-	desc = "It has bite marks."
-	icon = 'icons/obj/clothing/amulets.dmi'
-	icon_state = "meda1"
-	item_state = "wolf1"
-	neck_use = TRUE
-	item_worth = 30
-
-/obj/item/clothing/head/amulet/lechery/bite_act(mob/M as mob)
-	. = ..()
-	var/mob/living/carbon/human/H = M
-	if((get_dist(src,M) >= 2) && loc != M)
-		return
-	H.visible_message("<span class='bname'>⠀[H]</span> bites \the [src]!</span>")
-	H.erpcooldown = 0
-	H.resistenza = 200
-
 /obj/item/clothing/head/amulet/holy/cross
 	name = "cross"
 	desc = "A holy amulet to wear around your neck."

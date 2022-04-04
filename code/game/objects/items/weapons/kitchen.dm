@@ -219,9 +219,6 @@
 	icon_state = "skinning"
 
 /obj/item/weapon/kitchen/utensil/knife/flaying/attack(mob/living/carbon/human/H as mob, mob/user as mob)
-	if (depotenzia(H, user))
-		return
-
 	if(ishuman(H) && user.zone_sel.selecting != "groin")
 		var/datum/organ/external/affecting = H.get_organ(ran_zone(user.zone_sel.selecting))
 

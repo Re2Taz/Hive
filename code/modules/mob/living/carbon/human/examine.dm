@@ -73,11 +73,6 @@
 					t_chis = "Her"
 					t_him = "her"
 
-			if(has_penis() && (!wear_suit && is_nude()))
-				t_He = "He"
-				t_his = "his"
-				t_him = "him"
-
 		var/mob/living/carbon/human/M = usr
 		var/mob/living/carbon/human/P = src
 		if(stealth || brothelstealth)
@@ -137,10 +132,6 @@
 				to_chat(usr, "[msg]</div></div>", 10)
 				return
 
-		if(istype(src, /mob/living/carbon/human/monster) && src.gender == MALE)
-			msg += {"</span>[src.desc]\n<span class='bname'>Penis size: [potenzia]cm.</span></div></div>"}
-			to_chat(usr, msg)
-			return 1
 		if(stealth || brothelstealth)
 			msg += "<span class='uppertext'>I can't recognize it.</span>"
 		else
@@ -544,20 +535,6 @@
 
 		if(O && O.get_teeth() < O.max_teeth)
 			msg += "\n<span class='combatglow'><B>[O.get_teeth() <= 0 ? "All" : "[O.max_teeth - O.get_teeth()]"] of [t_his] teeth are missing!</B></span>"
-
-		if(is_nude() && (potenzia > -1) && species.genitals)//Interactions
-			if(!wear_suit)
-				if(gender == FEMALE && (futa || isFemboy()))
-					msg += "\n<span class='bname'>Penis size: [potenzia]cm.</span>"
-				else if(gender == MALE)
-					msg += "\n<span class='bname'>Penis size: [potenzia]cm.</span>"
-
-		if(is_nude() && gender == FEMALE && species.genitals && futa == FALSE)
-			if(virgin)
-				msg += "\n<span class='erp'>Their cherry is intact!</span>\n"
-
-		if(is_nude() && mutilated_genitals)
-			msg += "\n<span class='combatglow'><b>THEIR GROIN IS DESTROYED!</b></span>\n"
 
 		if(right_eye_fucked && !left_eye_fucked && !istype(src.glasses, /obj/item/clothing/glasses/Reyepatch))
 			msg += "\n<span class='combatglow'><b>His right eye is destroyed!</b></span>\n"

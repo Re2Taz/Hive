@@ -47,26 +47,13 @@ var/client/list/set_spoused = list() //prevents set_spoused people from being sh
 		to_chat(human_target,"<span class='combat'>Setspouse <span class='combatbold'>FAIL!</span> </span>")
 		return
 
-	if(human_sender.has_penis() && human_target.has_penis())
-		to_chat(human_sender,"<span class='combat'>Setspouse <span class='combatbold'>FAIL!</span></span>")
-		to_chat(human_target,"<span class='combat'>Setspouse <span class='combatbold'>FAIL!</span> </span>")
-		return
-
-
-	if(!human_sender.has_penis() && !human_target.has_penis())
-		to_chat(human_sender,"<span class='combat'>Setspouse <span class='combatbold'>FAIL!</span></span>")
-		to_chat(human_target,"<span class='combat'>Setspouse <span class='combatbold'>FAIL!</span> </span>")
-		return
-
-
 	var/mob/living/carbon/human/husband
 	var/mob/living/carbon/human/wife
-	if(human_target.has_penis())
-		husband = human_target
-		wife = human_sender
-	else
-		husband = human_sender
-		wife = human_target
+
+	// Anyone can be a wife
+	husband = human_target
+	wife = human_sender
+
 	var/datum/family/F = new /datum/family(husband)
 	matchmaker.families |= F
 	F.add_member(wife)
@@ -124,7 +111,7 @@ var/client/list/set_spoused = list() //prevents set_spoused people from being sh
 	var/list/mob/living/carbon/human/pending_family = list()
 	var/datum/family/F
 	for(var/mob/living/carbon/human/H in migrants)
-		if(H.has_penis() && H.age >= 18)//Just going to give it to the first able man. Not much of a point in making this complex right now since families only go one generation deep.
+		if(H.age >= 18)//Just going to give it to the first able man. Not much of a point in making this complex right now since families only go one generation deep. //No penises
 			F = new /datum/family(H)
 			families |= F
 			migrants -= H
@@ -165,7 +152,8 @@ var/client/list/set_spoused = list() //prevents set_spoused people from being sh
 		else if(!set_spoused.Find(H?.client) && H?.client?.prefs?.family == TRUE)
 			if(families.len < total_familes) // If we aren't at our limit yet, we make five suitable players head of house
 				 //from memory lifeweb families always have a male head.
-				if(H.has_penis() && H.age >= 18)//18 might produce some strange results though we're trying to generate as many families as we can
+				 //The upper comment no longer applies, long live feminism!
+				if(H.age >= 18)//18 might produce some strange results though we're trying to generate as many families as we can
 					var/datum/family/F = new /datum/family(H)
 					families |= F
 				else

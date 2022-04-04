@@ -106,9 +106,7 @@
 	list(name = "Copper Dagger", path = /obj/item/weapon/kitchen/utensil/knife/dagger/copper, amount=3),
 	list(name = "Bronze Mace", path = /obj/item/weapon/melee/classic_baton/club/bronze, amount=1),
 	list(name = "Bronze Spear", path = /obj/item/weapon/claymore/cspear, amount=1),
-	list(name = "Copper Dildo", path = /obj/item/weapon/dildo/copper, amount=3),
 	list(name = "Copper Earring", path = /obj/item/clothing/ears/earring/copper, amount=2),
-	list(name = "Copper Dildo", path = /obj/item/weapon/dildo/copper, amount=1),
 	list(name = "Copper Bracer", path = /obj/item/clothing/wrist/bracer, amount=3)
 	)
 
@@ -146,7 +144,6 @@
 	list(name = "Colar de Ouro", path = /obj/item/clothing/head/amulet/goldeneck, amount=2),
 	list(name = "Golden Breastplate", path = /obj/item/clothing/suit/armor/vest/gold_breastplate, amount=1),
 	list(name = "Golden Shield", path = /obj/item/weapon/shield/golden, amount=1),
-	list(name = "Golden Dildo", path = /obj/item/weapon/dildo/goldeb, amount=3),
 	list(name = "Golden Censer", path = /obj/item/weapon/censer, amount=3),
 	list(name = "Golden Teeth", path = /obj/item/stack/teeth/human/golden, amount= 7),
 	list(name = "Golden Bracer", path = /obj/item/clothing/wrist/bracer/gold, amount= 2),
@@ -231,7 +228,6 @@
 	list(name = "Iron Mask", path = /obj/item/clothing/mask/ironmask, amount=3),
 	list(name = "Iron Cuirass", path = /obj/item/clothing/suit/armor/vest/iron_cuirass, amount=1),
 	list(name = "Iron Breastplate", path = /obj/item/clothing/suit/armor/vest/iron_breastplate, amount=1),
-	list(name = "Dildo", path = /obj/item/weapon/dildo, amount=3),
 	list(name = "Elite Helmet", path = /obj/item/clothing/head/helmet/lw/elitehelmet, amount=2),
 	list(name = "Elite Helmet II", path = /obj/item/clothing/head/helmet/lw/elitehelmet2, amount=2),
 	list(name = "Skull Open Iron Helmet", path = /obj/item/clothing/head/helmet/lw/openskulliron, amount=2),

@@ -505,7 +505,6 @@ var/mob/FortLordHand
 			H.my_stats.ht = rand(8,9)
 			H.my_stats.dx = rand(10,11)
 			H.my_stats.it = rand(8,9)
-			H.virgin = FALSE
 			H.add_perk(/datum/perk/illiterate)
 		if("Swineherd")
 			H.equip_to_slot_or_del(new /obj/item/clothing/under/rank/migrant(H), slot_w_uniform)
@@ -1333,7 +1332,7 @@ var/mob/FortLordHand
 		H.my_stats.ht += rand(0,1)
 		H.my_stats.dx -= rand(1,2)
 		H.my_stats.st += rand(0,1)
-		if(H.gender == FEMALE && !H.has_penis())
+		if(H.gender == FEMALE)
 			H.my_stats.st -=1
 		if(H.age >= 50)
 			H.my_stats.st -= rand(0,1)

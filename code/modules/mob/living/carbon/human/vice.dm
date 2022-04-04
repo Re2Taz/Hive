@@ -47,28 +47,6 @@
 
 				if(prob(1))
 					to_chat(src, "<br><span class='graytextbold'>⠀+ I need a kiss. +</span><br>")
-			if("Necrophile")
-				if(src.age > 17)
-					add_event("vice", /datum/happiness_event/vice/necro)
-					if(sleeping) return
-
-					if(prob(1))
-						to_chat(src, "<br><span class='graytextbold'>⠀+ I need someone more rotten than me. +</span><br>")
-			if("Sexoholic")
-				if(src.age > 17)
-					add_event("vice", /datum/happiness_event/vice/sexo)
-					if(sleeping) return
-
-					if(prob(1))
-						to_chat(src, "<br><span class='graytextbold'>⠀+ I need to sate my desires. +</span><br>")
-			
-			if("Voyeur")
-				if(src.age > 17)
-					add_event("vice", /datum/happiness_event/vice/voyeur)
-					if(sleeping) return
-
-					if(prob(1))
-						to_chat(src, "<br><span class='graytextbold'>⠀+ I need to watch someone do it. +</span><br>")
 
 			if("Alcoholic")
 				add_event("vice", /datum/happiness_event/vice/alco)

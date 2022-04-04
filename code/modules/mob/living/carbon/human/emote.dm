@@ -761,41 +761,6 @@
 					src.confused -= rand(2,8)
 			m_type = 1
 
-		if("masturbate") // god
-			var/list/nonolist = list("strokes their dick.", "masturbates.")
-			var/list/femnonolist = list("fingers their pussy.","pleasures herself.")
-			src.adjustStaminaLoss(2)
-
-			if(ismonster(src))
-				return
-			if(isChild(src))
-				return
-			if(src.mutilated_genitals)
-				return to_chat(src, "<span class='combatbold'>[pick(nao_consigoen)]</span><span class='combat'> I can't.</span>")
-			if(src.wear_suit)
-				return to_chat(src, "<span class='combatbold'>[pick(nao_consigoen)]</span><span class='combat'> I have clothes on.</span>")
-			if(src.has_penis())
-				if(src.erpcooldown == 0)
-					if(src.potenzia > 0)
-						message = "<span class='examinebold'>[src]</span> <span class='examine'>[pick(nonolist)]</span>"
-						src.lust += 12
-						if (src.lust >= src.resistenza)
-							src.fakecum()
-							src.lust = 0
-						else
-							src.moan()
-						call_sound_emote("masturbate")
-				else
-					to_chat(src, "It's not erect...")
-			else
-				message = "<span class='examinebold'>[src]</span> <span class='examine'>[pick(femnonolist)]</span>"
-				src.lust += 12
-				if (src.lust >= src.resistenza)
-					src.cum(src, null)
-					src.lust = 0
-				else
-					src.moan()
-
 //SHITTY EMOTES END
 
 		if("z_roar")
@@ -893,15 +858,6 @@
 		if("puke")
 			playsound(src.loc, 'vomit.ogg', 70, 0)
 			return
-		if("masturbate")
-			var/jackoff = pick(flist("honk/sound/new/ACTIONS/PENIS/HANDJOB/"))
-			var/packoff = pick(flist("honk/sound/new/ACTIONS/VAGINA/TOUCH/"))
-			if(src.has_penis())
-				playsound(src.loc, ("honk/sound/new/ACTIONS/PENIS/HANDJOB/[jackoff]"), 90, 1, -5)
-			else
-				playsound(src.loc, ("honk/sound/new/ACTIONS/VAGINA/TOUCH/[packoff]"), 90, 1, -5)
-
-
 
 		if("clearthroat")
 			if (src.gender == MALE)

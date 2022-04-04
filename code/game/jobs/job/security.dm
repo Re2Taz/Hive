@@ -36,8 +36,6 @@ datum/job/ordinator
 		H.equip_to_slot_or_del(new /obj/item/combatsheath/Censor(H), slot_wrist_l)
 		H.equip_to_slot_or_del(new /obj/item/weapon/gun/energy/taser/leet/sparq(H), slot_belt)
 		H.equip_to_slot_or_del(new /obj/item/clothing/head/helmet/sechelm/veteran(H), slot_r_hand)
-		if(prob(60))
-			H.virgin = FALSE
 		H.add_perk(/datum/perk/ref/strongback)
 		H.terriblethings = TRUE
 		H.add_perk(/datum/perk/heroiceffort)
@@ -74,8 +72,6 @@ datum/job/ordinator
 		H.add_perk(/datum/perk/ref/strongback)
 		H.add_perk(/datum/perk/heroiceffort)
 		H.add_perk(/datum/perk/morestamina)
-		if(prob(50))
-			H.virgin = FALSE
 		H.equip_to_slot_or_del(new /obj/item/daggerssheath/iron(H), slot_wrist_l)
 		H.terriblethings = TRUE
 		if(pigpluslist?.Find(ckey(H?.client?.key)))
@@ -160,8 +156,6 @@ datum/job/ordinator
 		H.equip_to_slot_or_del(new /obj/item/clothing/glasses/sunglasses(H), slot_glasses)
 		H.terriblethings = TRUE
 		H.add_perk(/datum/perk/morestamina)
-		if(prob(30))
-			H.virgin = FALSE
 		H.create_kg()
 		//H << sound('sound/music/sherold.ogg', repeat = 0, wait = 0, volume = 12, channel = 3)
 		return 1
@@ -214,7 +208,7 @@ datum/job/ordinator
 			H.my_stats.it = rand(9,10)
 			H.add_perk(/datum/perk/heroiceffort)
 			H.add_perk(/datum/perk/morestamina)
-			if(H.gender == FEMALE && !H.has_penis())
+			if(H.gender == FEMALE)
 				H.my_stats.st -=1
 			var/weaponreal = pick("axe","sword")
 			switch(weaponreal)
@@ -282,8 +276,6 @@ var/global/Gatekeeper_Type = "Null"
 			H.terriblethings = TRUE
 			H.add_perk(/datum/perk/morestamina)
 			H.religion = "Gray Church"
-			if(prob(40))
-				H.virgin = FALSE
 			H.create_kg()
 			return 1
 		else if(Gatekeeper_Type == "Chariot")
@@ -309,8 +301,6 @@ var/global/Gatekeeper_Type = "Null"
 			H.add_perk(/datum/perk/morestamina)
 			H.add_perk(/datum/perk/ref/strongback)
 			H.religion = "Gray Church"
-			if(prob(40))
-				H.virgin = FALSE
 			H.create_kg()
 			return 1
 

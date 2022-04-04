@@ -102,7 +102,6 @@ var/list/bumquotes = list("Cold... So cold...","Did you know?","People are so st
 			say(pick(bumquotes))
 
 		if(prob(90))
-			virgin = FALSE
 			contract_disease(new /datum/disease/aids,1,0)
 
 	// this is called when the target is within one tile

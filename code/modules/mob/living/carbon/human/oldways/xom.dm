@@ -12,7 +12,6 @@ var/global/list/xomPowers = list(
 	list(15, /mob/living/carbon/human/proc/turnintoblackperson),
 	list(10, /mob/living/carbon/human/proc/fakeneckwrench),
 	list(1, /mob/living/carbon/human/proc/wingame),
-	list(10, /mob/living/carbon/human/proc/penisgigante),
 	)
 
 //EU DEVIA FAZER UM DATUM MAS FODASE!!
@@ -250,10 +249,3 @@ var/xomPhrases = list("Hora da zueira!", "Já foi mamado por um deus?", "Deus me
 
 		leg.droplimb(1, 0)
 	}
-
-/mob/living/carbon/human/proc/penisgigante(var/fontSize = "133%", var/textColor = "#808080", var/name = "Xom")
-	visible_message("<span style='font-size: [fontSize]'><span class='saybasic'><b style='color: [textColor]'>( ͡° ͜ʖ ͡°)</b></span></span>\"")
-
-	potenzia = rand(5, 30)
-	resistenza = rand(400, 500)
-	lust = 10

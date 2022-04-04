@@ -436,7 +436,7 @@ var/list/scoutssiegers = list("Scout", "Hunter")
 		H.my_stats.ht += rand(0,1)
 		H.my_stats.dx -= rand(1,2)
 		H.my_stats.st += rand(0,1)
-	if(H.gender == FEMALE && !H.has_penis())
+	if(H.gender == FEMALE)
 		H.my_stats.st -= 1
 	if(H.age >= 50)
 		H.my_stats.st -= rand(0,1)
