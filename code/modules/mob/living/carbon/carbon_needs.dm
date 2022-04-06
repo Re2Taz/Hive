@@ -22,12 +22,6 @@
 	else if (src.dom_hand == "Ambidextrous")
 		msg += "I'm ambidextrous."*/ // dom_hand does nothing but i'm leaving this here for the future,remind RiotMigrant to add ambidextrous special when Foe finishes combat
 	msg += "<span class='moodboxtext'>My blood type: [src.dna.b_type]. </span>"
-	if(src.potenzia <=10 && src.has_penis())
-		msg += "<span class='moodboxtext'>My size: small.</span>"
-	else if(src.potenzia <=20 && src.has_penis())
-		msg += "<span class='moodboxtext'>My size: regular.</span>"
-	else if (src.potenzia >20 && src.has_penis())
-		msg += "<span class='moodboxtext'>My size: large.</span>" 
 	if(src.outsider && src.province && src.province != "Wanderer")
 		msg += "<span class='moodboxtext'>I come from <b>[src.province]</b></span>\n"
 	msg += "<br>"

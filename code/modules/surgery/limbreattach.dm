@@ -120,57 +120,6 @@
 		affected.createwound(CUT, 10)
 		..()
 
-
-/datum/surgery_step/penis_reattach
-	allowed_tools = list(
-	/obj/item/weapon/surgery_tool/suture = 100,			\
-	/obj/item/clothing/mask/cigarette = 75,	\
-	/obj/item/weapon/flame/lighter = 50,	\
-	/obj/item/weapon/weldingtool = 25
-	)
-
-	difficulty = 2
-	min_duration = 80
-	max_duration = 100
-
-	can_use(mob/living/user, mob/living/carbon/human/target, target_zone, obj/item/tool)
-		if (!hasorgans(target))
-			return 0
-		var/datum/organ/external/affected = target.get_organ(target_zone)
-		if (!affected)
-			return 0
-		if(affected.status & ORGAN_DESTROYED)
-			return 0
-		if (affected.parent)
-			if (affected.parent.status & ORGAN_DESTROYED)
-				return 0
-		if(target.has_penis())
-			return 0
-		var/obj/item/I = user.get_inactive_hand()
-		if(!(istype(I, /obj/item/weapon/reagent_containers/food/snacks/organ/internal/penis)))
-			return 0
-		return target_zone ==  "groin"
-
-	begin_step(mob/user, mob/living/carbon/human/target, target_zone, obj/item/tool)
-		user.visible_message("[user] starts stitching [target]'s penis back together with [tool].", \
-		"You start stitching [target]'s penis back together using \the [tool].")
-		..()
-
-	end_step(mob/living/user, mob/living/carbon/human/target, target_zone, obj/item/tool)
-		var/obj/item/I = user.get_inactive_hand()
-		if(!(istype(I, /obj/item/weapon/reagent_containers/food/snacks/organ/internal/penis)))
-			return 0
-		user.visible_message("<span class='passive'>[user] sews back the [target]'s penis with \he [tool].</span>",	\
-		"<span class='passive'>You sews back the [target]'s penis using \the [tool].</span>")
-		var/obj/item/weapon/reagent_containers/food/snacks/organ/internal/penis/P = I
-		target.update_body()
-		target.updatehealth()
-		target.UpdateDamageIcon()
-		target.potenzia = P.potenzia
-		target.mutilated_genitals = 0
-		qdel(P)
-		..()
-
 	fail_step(mob/living/user, mob/living/carbon/human/target, target_zone, obj/item/tool)
 		var/datum/organ/external/affected = target.get_organ(target_zone)
 		if (affected.parent)

@@ -8,7 +8,6 @@
 	..()
 	makeSkeleton()
 	src.zone_sel = new /obj/screen/zone_sel( null )
-	potenzia = rand(16, 25)
 	my_stats.initst = rand(13,15)
 	my_stats.initht = rand(1,2)
 	my_stats.initdx = rand(10,14)
@@ -39,7 +38,6 @@
 	name = "Ancestor"
 
 	src.zone_sel = new /obj/screen/zone_sel( null )
-	potenzia = rand(16, 25)
 	my_stats.initst = rand(18,19)
 	my_stats.initht = rand(18,30)
 	my_stats.initdx = rand(15,18)

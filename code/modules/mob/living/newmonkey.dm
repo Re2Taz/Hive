@@ -78,7 +78,6 @@
     ..()
     set_species("newmonkey")
     src.zone_sel = new /obj/screen/zone_sel( null )
-    potenzia = rand(16, 25)
     my_stats.initst = rand(4,6)
     my_stats.initht = rand(3,5)
     my_stats.initdx = rand(7,10)

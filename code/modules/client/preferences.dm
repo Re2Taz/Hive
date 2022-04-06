@@ -1421,8 +1421,6 @@ datum/preferences
 		if(backbag > 4 || backbag < 1)
 			backbag = 1 //Same as above
 		character.backbag = backbag
-		if(thirtycm.Find(character.ckey) && character.has_penis())
-			character.potenzia = 30
 		if(baliset.Find(character.ckey))
 			character.my_skills.CHANGE_SKILL(SKILL_MUSIC, rand(13,15))
 		if(singer.Find(character.ckey))

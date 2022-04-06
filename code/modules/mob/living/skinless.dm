@@ -69,7 +69,6 @@
 		src.equip_to_slot_or_del(new /obj/item/clothing/head/helmet/lw/ironopenhelmet(src), slot_head)
 	if(prob(60))
 		src.equip_to_slot_or_del(new /obj/item/clothing/suit/armor/vest/iron_cuirass(src), slot_wear_suit)
-	potenzia = rand(16, 25)
 	my_stats.initst = rand(12,13)
 	my_stats.initht = rand(10,13)
 	my_stats.initdx = rand(10,11)

@@ -1213,7 +1213,7 @@ proc/strToDamageModifierItem(var/strength, var/ht)
 				host.my_stats.ht += rand(0,1)
 				host.my_stats.dx -= rand(1,2)
 				host.my_stats.st += rand(0,1)
-			if(host.gender == FEMALE && !host.has_penis())
+			if(host.gender == FEMALE)
 				host.my_stats.st -=1
 			if(host.age >= 50)
 				host.my_stats.st -= rand(0,1)

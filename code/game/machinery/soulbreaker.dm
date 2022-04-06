@@ -44,11 +44,6 @@
 				return
 			if(H.stat != DEAD)
 				switch(slavetype)
-					if("Sexual")
-						if(H.virgin)
-							randomamount = rand(135,160)
-						else
-							randomamount = rand(125,130)
 					if("Noble")
 						if(H.job == "Baron" || H.job == "Heir" || H.job == "Successor" || H.job == "Marduk" || H.job == "Guest" || H.royalty)
 							randomamount = rand(200,300)

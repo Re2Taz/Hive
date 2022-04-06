@@ -118,9 +118,6 @@
 			return 0
 		if (affected.status & ORGAN_DESTROYED)
 			return 0
-		if(target_zone == "groin")
-			if(!(target.has_penis()))
-				return 0
 		return target_zone != "chest" && target_zone != "head"
 
 	begin_step(mob/user, mob/living/carbon/human/target, target_zone, obj/item/tool)

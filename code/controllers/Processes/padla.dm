@@ -52,16 +52,6 @@ var/datum/padla/Padla = null
 
 // PADLAS TYPE START
 
-/datum/curses/padla/lust
-	name = "lust padla"
-
-/datum/curses/padla/lust/Curse()
-	for(var/mob/living/carbon/human/H in player_list)
-		if(!H.check_perk(/datum/perk/ref/warlock) && H.age > 17)
-			H.add_event("lustpadla", /datum/happiness_event/misc/needsex)
-			spawn(5 SECONDS)
-				to_chat(H, "<span class='horriblestate' style='font-size: 150%;'><b><i>Your Lust Intensifies!</i></b></span>")
-
 /datum/curses/padla/poo
 	name = "poo padla"
 

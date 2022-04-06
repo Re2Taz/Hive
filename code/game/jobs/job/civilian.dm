@@ -1048,41 +1048,6 @@
 		return 1
 */
 
-/datum/job/hooker
-	title = "Amuser"
-	titlebr = "Prostituta"
-	flag = HOOKER
-	department_head = list("Trader")
-	department_flag = CIVILIAN
-	faction = "Station"
-	total_positions = 2
-	spawn_positions = 3
-	supervisors = "Your customer and the pusher."
-	selection_color = "#ae00ff"
-	access = list(amuser)
-	minimal_access = list(amuser)
-	idtype = /obj/item/weapon/card/id/ltgrey
-	sex_lock = FEMALE
-	thanati_chance = 75
-	money = 3
-	jobdesc = "The lady of the night, a seductress who welcomes men into her soft embrace for coin. The pusher is your pimp, and he&#8217;s expecting a cut of the earnings. Enticing men these nights is not that hard - nights get dreary and lonely after all, but with the recent arrival of the Inquisition, you&#8217;ve noticed your frequent visitors become strangely chaste in your presence."
-	jobdescbr = "Após a chegada da Inquisição, os homens da fortaleza tornaram-se subitamente ... assexuados. Eles têm medo de uma reeducação que agrada a Deus e incapacitante ou apenas se sublimam em fanatismo, intrigas e expectativa de uma matança? De qualquer forma, você deve se esforçar para lembrá-los de simples alegrias corporais."
-	equip(var/mob/living/carbon/human/H)
-		if(!H)
-			return 0
-		..()
-		H.equip_to_slot_or_del(new /obj/item/clothing/suit/hooker(H), slot_wear_suit)
-		H.equip_to_slot_or_del(new /obj/item/clothing/shoes/lw/fetish(H), slot_shoes)
-		//H.equip_to_slot_or_del(new /obj/item/clothing/gloves/fingerless(H), slot_gloves)
-		H.equip_to_slot_or_del(new /obj/item/device/radio/headset/bracelet/cheap(H), slot_wrist_r)
-		H.add_perk(/datum/perk/illiterate)
-		H.add_perk(/datum/perk/morestamina)
-		if(prob(80))
-			H.virgin = FALSE
-			if(prob(20))
-				H.contract_disease(new /datum/disease/aids,1,0)
-		return 1
-
 /datum/job/scuff
 	title = "Scuff"
 	titlebr = "Scuff"

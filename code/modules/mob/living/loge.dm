@@ -149,7 +149,6 @@
 	my_stats.dx = rand(10, 12)
 
 	src.zone_sel = new /obj/screen/zone_sel( null )
-	potenzia = rand(12, 15)
 
 	if(!mind)
 		mind = new /datum/mind(src)

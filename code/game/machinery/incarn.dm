@@ -55,7 +55,7 @@
 		NG.name = "[H.real_name] Documents"
 		NG.person_name = H.real_name
 		NG.person_age = H.age
-		NG.person_gender = H.gender == FEMALE && H.has_penis() ? MALE : H.gender
+		NG.person_gender = H.gender
 		NG.desc = "[H.real_name], [H.age] [NG.person_gender]"
 		NG.owner = H
 		migrantsarrived += 1

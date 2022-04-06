@@ -46,8 +46,6 @@
 	src.buckle_mob(H)
 	if(prob(70))
 		H.emote("scream")
-	if(H.special == "weirdregurgi")
-		H.add_event("came", /datum/happiness_event/regurgipleasure)
 	spawn(100)
 		if(!isturf(AM.loc)){
 			return

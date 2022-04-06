@@ -662,27 +662,6 @@ datum/objective/absorb
 		else
 			return 0
 
-/*---------SUCCUBUS----------*/
-datum/objective/succubus
-	explanation_text = "Corrupt 5 men and consume their souls through a coitus!"
-
-	check_completion()
-		if(owner && owner.succubus && owner.succubus.succubusSlaves.len >= 5)
-			return 1
-		else
-			return 0
-
-datum/objective/succubusTwo
-	explanation_text = "Ensure that you are the only Succubus in the fortress!"
-
-	check_completion()
-		for(var/mob/living/carbon/human/H in mob_list)
-			if(H.gender == "female" && !H.isChild() && !H.outsider && H.mind.special_role == "Succubus")
-				if(H.stat != DEAD)
-					return 0
-				else
-					return 1
-
 datum/objective/plinio
 	explanation_text = "Replace 8 portraits with Plinio Salgaka in total, anauê!"
 

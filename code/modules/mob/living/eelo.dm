@@ -34,7 +34,6 @@
 
 	src.zone_sel = new /obj/screen/zone_sel( null )
 	equip_to_slot_or_del(new /obj/item/clothing/under/eelo(src), slot_w_uniform)
-	potenzia = rand(16, 25)
 	my_stats.initst = rand(10,12)
 	my_stats.initht = rand(5,10)
 	my_stats.initdx = rand(4,5)

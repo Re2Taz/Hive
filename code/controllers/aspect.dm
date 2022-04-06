@@ -491,12 +491,6 @@ var/list/allClothing = list()
 				if(prob(75))
 					H.contract_disease(new /datum/disease/fluspanish,1,0)
 
-/datum/round_event/man/apply_event()
-	for(var/mob/living/carbon/human/H in mob_list)
-		if(H.outsider == 0 && !H.has_penis())
-			H.gender = "male"
-			H.update_body()
-
 /*/datum/round_event/polyhedron/apply_event()
 	for(var/mob/living/carbon/human/H in mob_list)
 		if(H?.species?.name == "Child")
@@ -545,10 +539,6 @@ var/list/allClothing = list()
 			H.equip_to_slot_or_del(new /obj/item/ammo_magazine/external/grinder(H), slot_l_store)
 			H.equip_to_slot_or_del(new /obj/item/ammo_magazine/external/grinder(H), slot_s_store)
 
-/datum/round_event/size_matters/apply_event()
-	for(var/mob/living/carbon/human/H in mob_list)
-		H.my_stats.st = H.potenzia
-
 /datum/round_event/deadlyforce/apply_event()
 	for(var/mob/living/carbon/human/H in mob_list)
 		if(H.job == "Tiamat" || H.job == "Marduk")
@@ -568,12 +558,6 @@ var/list/allClothing = list()
 			H.s_tone = -185
 			H.update_body()
 */
-/datum/round_event/erpfaggots/apply_event()
-	for(var/mob/living/carbon/human/H in mob_list)
-		if(prob(70))
-			if(!H.outsider)
-				H.mutilated_genitals = 1
-				H.potenzia = -1
 
 /datum/round_event/weak/apply_event()
 	for(var/mob/living/carbon/human/H in mob_list)
@@ -688,7 +672,7 @@ var/list/allClothing = list()
 
 /datum/round_event/washingmachine/apply_event()
 	for(var/obj/item/clothing/C in allClothing)
-		var/mob/living/carbon/human/wearsMe = null            
+		var/mob/living/carbon/human/wearsMe = null
 		if(istype(C.loc, /mob/living/carbon/human))
 			wearsMe = C.loc
 		var/area/A = get_area(C)
@@ -704,7 +688,7 @@ var/list/allClothing = list()
 			continue
 		if(istype(C, /obj/item/clothing/head/caphat))
 			continue
-		else            
+		else
 			qdel(C)
 	spawn(5 SECONDS)
 		for(var/mob/living/carbon/human/bumbot/B in mob_list)
@@ -714,14 +698,3 @@ var/list/allClothing = list()
 			qdel(B.gloves)
 			qdel(B.wear_suit)
 			qdel(B.shoes)
-
-/datum/round_event/reallover/apply_event()
-	var/list/L = list()
-	for(var/mob/living/carbon/human/H in mob_list)
-		if(H.client && H.age >= 18)
-			L.Add(H)
-	var/mob/living/carbon/human/chosenOne = pick(L)
-	chosenOne.Chosenlover = 1
-	chosenOne.potenzia = 30
-	spawn(5 SECONDS)
-		to_chat(world, "<span class='horriblestate' style='font-size: 150%;'><b><i>They say [chosenOne.real_name] is a great lover!</i></b></span>")

@@ -520,8 +520,6 @@ var/aspects_max = 3
 		else
 			client.prefs.copy_to(new_character)
 
-		if(client?.prefs.togglesize)
-			new_character.potenzia = 30
 		if(baliset.Find(client?.ckey))
 			new_character.my_skills.CHANGE_SKILL(SKILL_MUSIC, rand(13,15))
 		if(singer.Find(client?.ckey))

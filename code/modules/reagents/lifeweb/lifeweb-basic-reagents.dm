@@ -102,9 +102,6 @@
 		return
 	if(!istype(M, /mob/living/carbon/human))
 		return
-	var/mob/living/carbon/human/H = M
-	if(H.lust)
-		H.lust -= 1
 
 /datum/reagent/barium
 	name = "Barium"

@@ -4,52 +4,6 @@
 	overdose_threshold = 30
 	reagent_state = LIQUID
 
-/datum/reagent/alchemy/hero_drops
-	name = "Hero's Drops"
-	id = "hero_drops"
-	description = "Make you be tireless in bed."
-	color = "#451764" // rgb: 200, 165, 220
-
-/datum/reagent/alchemy/hero_drops/on_mob_life(var/mob/living/M as mob, var/alien)
-	if(!istype(M))
-		return
-	if(!istype(M, /mob/living))
-		return
-	if(!istype(M, /mob/living/carbon/human))
-		return
-	var/mob/living/carbon/human/H = M
-	if(H.erpcooldown)
-		H.erpcooldown = 0
-
-	holder.remove_reagent(id, metabolization_rate)
-	return
-
-/datum/reagent/alchemy/blessing_baccus
-	name = "Blessing Baccus"
-	id = "blessing_baccus"
-	description = "Makes your dancer bigger so you won't be a disappointment to your cheating wife."
-
-	color = "#EB5D95" // rgb: 200, 165, 220
-
-/datum/reagent/alchemy/blessing_baccus/on_mob_life(var/mob/living/M as mob, var/alien)
-	if(!istype(M))
-		return
-	if(!istype(M, /mob/living))
-		return
-	if(!istype(M, /mob/living/carbon/human))
-		return
-	var/mob/living/carbon/human/H = M
-	if(!H.has_penis())
-		return
-	H.potenzia += alchemy_skill + volume
-	if(H.potenzia > 30)
-		H.mutilate_genitals()
-		H.custom_pain("[pick("<span class='hugepain'>OH [uppertext(H.god_text())] MY DICK!</span>", "<span class='hugepain'>OH [uppertext(H.god_text())] WHY!</span>", "<span class='hugepain'>OH [uppertext(H.god_text())] IT HURTS!</span>")]", 100)
-		H.apply_damage(rand(30,45), BRUTE, BP_GROIN)
-
-	holder.remove_reagent(id, volume)
-	return
-
 /datum/reagent/alchemy/bridge_of_ttf
 	name = "Bridge of the True Faith"
 	id = "bridge_of_ttf"

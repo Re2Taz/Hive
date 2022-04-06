@@ -34,7 +34,6 @@
 	set_species("tzanch")
 
 	src.zone_sel = new /obj/screen/zone_sel( null )
-	potenzia = rand(16, 25)
 	my_stats.initst = rand(3,6)
 	my_stats.initht = rand(2,3)
 	my_stats.initdx = rand(5,8)

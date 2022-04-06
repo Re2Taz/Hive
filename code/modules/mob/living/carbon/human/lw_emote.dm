@@ -63,19 +63,3 @@
 		else
 			src.visible_message("<span class='examinebold'>[usr]</span><span class='examine'> kisses </span><span class='examinebold'>[src]</span>")
 			playsound(src.loc, 'sound/voice/kiss.ogg', 40, 0, -1)
-			if(H?.mind?.succubus)
-				if(!src.check_event(H.real_name))
-					to_chat(src, "<span class='horriblestate' style='font-size: 200%;'><b><i>I NEED TO FUCK [H]!</i></b></span>")
-					src.my_stats.st -= 3
-					src.my_stats.dx -= 3
-				H.succubus_mood(src)
-			if(H.gender == FEMALE)
-				if(src.gender == MALE || src.gender == FEMALE && src.has_penis() || src.isFemboy())
-					if(src.vice == "Addict (Kisses)")
-						src.clear_event("vice")
-						src.viceneed = 0
-			if(H.has_penis())
-				if(src.gender == FEMALE)
-					if(src.vice == "Addict (Kisses)")
-						src.clear_event("vice")
-						src.viceneed = 0

@@ -118,8 +118,6 @@
 			if(!receiver.pjack_item)
 				spawnitem = /obj/item/toy/pumpkinjack
 				receiver.pjack_item = TRUE
-		if("*Amulet of Lechery*")
-			spawnitem = /obj/item/clothing/head/amulet/lechery
 		if("*Dreamer's Diary*")
 			if(amount_book)
 				spawnitem = /obj/item/weapon/book/dreamer

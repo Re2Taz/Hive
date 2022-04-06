@@ -234,14 +234,6 @@ var/list/all_supply_groups = list("Weapons", "Clothing", "Ammo","Hospitality","E
 	containername = "Sleeping Bags"
 	group = "Hospitality"
 
-/datum/supply_packs/adultmagazines
-	name = "Adult Magazines (x3)"
-	contains = list(/obj/item/adultmag/one,/obj/item/adultmag/two,/obj/item/adultmag/three)
-	cost = 33
-	containertype = /obj/structure/closet/crate/secure
-	containername = "Adult Magazines"
-	group = "Hospitality"
-
 /datum/supply_packs/batterycell
 	name = "Battery Cells (x3)"
 	contains = list(/obj/item/weapon/cell/crap,/obj/item/weapon/cell/crap,/obj/item/weapon/cell/crap)

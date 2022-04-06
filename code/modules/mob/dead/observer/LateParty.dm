@@ -379,7 +379,6 @@ var/lady = 0
 					new_character.vice = pick(VicesList)
 					new_character.age = rand(24,45)
 					new_character.voicetype = "strong"
-					new_character.mutilate_genitals()
 					new_character.religion = "Allah"
 					new_character.updatePig()
 					new_character.create_kg()
@@ -392,10 +391,7 @@ var/lady = 0
 					var/mob/living/carbon/human/new_character = new(pick(latejoin))
 					new_character.key = OO.key
 					new_character.mind.key = OO.key
-					if(!countess && S.hascount.gender == MALE ||!countess && S.hascount.has_penis())
-						new_character.gender = FEMALE
-					else
-						new_character.gender = MALE
+					new_character.gender = FEMALE
 					new_character.real_name = random_name(new_character.gender)
 					new_character.name = new_character.real_name
 					new_character.voice_name = new_character.real_name

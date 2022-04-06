@@ -25,7 +25,6 @@
 
 	src.zone_sel = new /obj/screen/zone_sel( null )
 
-	potenzia = rand(16, 25)
 	my_stats.initst = 13
 	my_stats.initht = 13
 	my_stats.initdx = rand(12,16)
