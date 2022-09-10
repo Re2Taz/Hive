@@ -464,7 +464,7 @@
 "aiV" = (/turf/simulated/floor/lifeweb{icon_state = "bar3"; dir = 8},/area/dunwell/station/brothel)
 "aiW" = (/turf/simulated/floor/lifeweb{icon_state = "bloodbar"},/area/dunwell/station/brothel)
 "aiX" = (/obj/machinery/light/small/green{icon_state = "bulb1"; dir = 4},/turf/simulated/floor/lifeweb/plaza,/area/dunwell/station/brothel)
-"aiY" = (/obj/structure/rack/lwtable/table1,/obj/item/condom_wrapper/regular,/turf/simulated/floor/os13/fs18,/area/dunwell/station/brothel)
+"aiY" = (/obj/structure/rack/lwtable/table1,/turf/simulated/floor/os13/fs18,/area/dunwell/station/brothel)
 "aiZ" = (/obj/structure/railing{dir = 4; icon_state = "railing"; plane = 0},/turf/simulated/floor/lifeweb{icon_state = "plazar"; dir = 8},/area/dunwell/station/medbay)
 "aja" = (/obj/multiz/stairs/active/wood{icon_state = "wramp"; dir = 1},/obj/structure/railing/fake{dir = 1; icon_state = "railing-1corner"; pixel_x = -8; pixel_y = 8; plane = 0},/turf/simulated/floor/lifeweb{icon_state = "plazar"; dir = 1},/area/dunwell/station/medbay)
 "ajb" = (/obj/structure/lifeweb/s_stone/xsd{icon_state = "aborder1"; dir = 9},/obj/structure/fireplace/alt,/turf/simulated/floor/lifeweb{icon_state = "trainstation"},/area/dunwell/station)
@@ -573,7 +573,7 @@
 "ala" = (/obj/structure/mineral_door/wood{dir = 8; icon_state = "wood"},/turf/simulated/floor/lifeweb{icon_state = "newstone2"},/area/dunwell/station/medbay)
 "alb" = (/obj/machinery/light/small/blue{icon_state = "bulb1"; dir = 4},/turf/simulated/floor/lifeweb/cerb2,/area/dunwell/station/kitchen)
 "alc" = (/obj/machinery/door/airlock/brothel{name = "Old Cock Inn"; req_access_txt = "159"; req_one_access_txt = "159"},/obj/machinery/door/poddoor/shutters/preopen,/turf/simulated/floor/lifeweb/stone{icon_state = "66"},/area/dunwell/station/kitchen)
-"ald" = (/obj/structure/rack/lwtable/table6,/obj/item/condom_wrapper/small,/turf/simulated/floor/lifeweb{icon_state = "brothel"; dir = 2},/area/dunwell/station/brothel)
+"ald" = (/obj/structure/rack/lwtable/table6,/turf/simulated/floor/lifeweb{icon_state = "brothel"; dir = 2},/area/dunwell/station/brothel)
 "ale" = (/turf/simulated/wall,/area/dunwell/station/kitchen)
 "alf" = (/obj/structure/stool/bed/chair/comfy/woodencave{icon_state = "cave_wooden_chair"; dir = 4},/turf/simulated/floor/lifeweb/cerb2,/area/dunwell/station)
 "alg" = (/obj/structure/rack/lwtable/table2,/turf/simulated/floor/lifeweb/cerb2,/area/dunwell/station)
@@ -942,7 +942,7 @@
 "asf" = (/obj/structure/beatiful_carpet,/obj/item/weapon/storage/secure/safe/sheriff{pixel_x = 32},/turf/simulated/floor/lifeweb/wood/woodtF74{icon_state = "F74"; dir = 5},/area/dunwell/village)
 "asg" = (/obj/structure/beatiful_carpet,/obj/structure/fireplace/wallplace/north,/turf/simulated/floor/lifeweb/wood,/area/dunwell/station/bridge/noble)
 "ash" = (/obj/structure/stool/bed/chair/comfy/wooden,/turf/simulated/floor/lifeweb/wood/wooddaarkk,/area/dunwell/station/bridge/noble)
-"asi" = (/obj/structure/closet/lwfb/wooden,/obj/item/condom_wrapper/regular,/turf/simulated/floor/os13/fs18,/area/dunwell/station/brothel)
+"asi" = (/obj/structure/closet/lwfb/wooden,/turf/simulated/floor/os13/fs18,/area/dunwell/station/brothel)
 "asj" = (/obj/structure/rack/lwtable/table9_table{icon_state = "woodentable"; dir = 9},/obj/item/weapon/reagent_containers/glass/bottle/lifeweb/iridium,/obj/item/weapon/reagent_containers/glass/bottle/lifeweb/iridium,/obj/item/weapon/reagent_containers/glass/bottle/lifeweb/iridium,/turf/simulated/floor/lifeweb{icon_state = "k2"},/area/dunwell/station/medbay)
 "ask" = (/obj/structure/lifeweb/statue/gargoyle2,/turf/simulated/floor/lifeweb/wood/wooddaarkk{icon_state = "34242"; dir = 1},/area/dunwell/station/bridge/noble)
 "asl" = (/turf/simulated/floor/lifeweb{icon_state = "23b"; dir = 1},/obj/structure/door_protect{icon_state = "door_open"; dir = 1},/turf/simulated/floor/carpet/beatifulcarpet11{icon_state = "hcarp"; dir = 4},/area/dunwell/station/treasury)
@@ -3164,8 +3164,8 @@
 "bjH" = (/obj/item/seeds/plastiseed,/obj/item/seeds/tomatoseed,/turf/simulated/floor/lifeweb/stone,/area/dunwell/station/bridge)
 "bjI" = (/turf/simulated/floor/lifeweb{icon_state = "23"; dir = 1},/area/dunwell/station/eva)
 "bjJ" = (/obj/item/seeds/potatoseed,/turf/simulated/floor/lifeweb/stone,/area/dunwell/station/bridge)
-"bjK" = (/obj/structure/lifeweb/s_stone/xsd{icon_state = "aborder1"; dir = 8},/obj/structure/lifeweb/s_stone/xsd/highplane{icon_state = "aborder1"; dir = 8},/obj/structure/bridge_small/end{icon_state = "bri2"; dir = 1},/turf/simulated/floor/open,/area/dunwell/station)
-"bjL" = (/obj/structure/lifeweb/s_stone/xsd{icon_state = "aborder1"; dir = 9},/obj/structure/lifeweb/s_stone/xsd/highplane{icon_state = "aborder1"; dir = 9},/obj/structure/bridge_small/end{icon_state = "bri2"; dir = 9},/turf/simulated/floor/open,/area/dunwell/station)
+"bjK" = (/obj/structure/lifeweb/s_stone/xsd{icon_state = "aborder1"; dir = 8},/obj/structure/bridge_small/end{icon_state = "bri2"; dir = 1},/turf/simulated/floor/open,/area/dunwell/station)
+"bjL" = (/obj/structure/lifeweb/s_stone/xsd{icon_state = "aborder1"; dir = 9},/obj/structure/bridge_small/end{icon_state = "bri2"; dir = 9},/turf/simulated/floor/open,/area/dunwell/station)
 "bjM" = (/obj/structure/rack/lwtable/table5,/obj/item/sheath/sabre,/turf/simulated/floor/meister1{icon_state = "k1"; dir = 1},/area/dunwell/station/bridge/meister)
 "bjN" = (/obj/structure/sink{dir = 4; icon_state = "sink"; pixel_x = 0; pixel_y = 0},/obj/item/seeds/potatoseed,/turf/simulated/floor/lifeweb/stone,/area/dunwell/station/bridge)
 "bjO" = (/turf/simulated/wall/r_wall/cave/white/hard/surface,/area/dunwell/surface)
@@ -3304,10 +3304,10 @@
 "bmt" = (/obj/machinery/redlamp,/turf/simulated/floor/lifeweb{icon_state = "bar3"; dir = 4},/area/dunwell/station)
 "bmu" = (/obj/structure/lifeweb/statue/angel2,/turf/simulated/floor/lifeweb/stone{icon_state = "0,0"},/area/dunwell/station)
 "bmv" = (/obj/structure/stool/bed/chair/sofa/left,/turf/simulated/floor/lifeweb/wood/wooddaarkk{icon_state = "34242"; dir = 4},/area/dunwell/station/merchant)
-"bmw" = (/obj/structure/lifeweb/s_stone/xsd{icon_state = "aborder1"; dir = 5},/obj/structure/lifeweb/s_stone/xsd/highplane{icon_state = "aborder1"; dir = 5},/obj/structure/bridge_small{icon_state = "bri"; dir = 1},/obj/machinery/light/small/red{icon_state = "firelight1"; dir = 4},/turf/simulated/floor/open,/area/dunwell/station)
+"bmw" = (/obj/structure/lifeweb/s_stone/xsd{icon_state = "aborder1"; dir = 5},/obj/structure/bridge_small{icon_state = "bri"; dir = 1},/obj/machinery/light/small/red{icon_state = "firelight1"; dir = 4},/turf/simulated/floor/open,/area/dunwell/station)
 "bmx" = (/obj/structure/door_protect{icon_state = "door_open"; dir = 4},/turf/simulated/floor/lifeweb/wood/troom3{icon_state = "troom3"; dir = 1},/area/dunwell/station)
 "bmy" = (/obj/structure/lifeweb/s_stone/xsd{icon_state = "aborder1"; dir = 4},/obj/structure/trash/three,/turf/simulated/floor/lifeweb/stone{icon_state = "4,3"},/area/dunwell/station)
-"bmz" = (/obj/structure/lifeweb/s_stone/xsd{icon_state = "aborder1"; dir = 8},/obj/structure/lifeweb/s_stone/xsd/highplane{icon_state = "aborder1"; dir = 8},/obj/structure/bridge_small/end{icon_state = "bri2"; dir = 1},/obj/item/trash/raisins,/turf/simulated/floor/open,/area/dunwell/station)
+"bmz" = (/obj/structure/lifeweb/s_stone/xsd{icon_state = "aborder1"; dir = 8},/obj/structure/bridge_small/end{icon_state = "bri2"; dir = 1},/obj/item/trash/raisins,/turf/simulated/floor/open,/area/dunwell/station)
 "bmA" = (/turf/simulated/floor/plating/dirt2,/area/dunwell/station/hydro)
 "bmB" = (/obj/structure/door_protect,/turf/simulated/floor/lifeweb{icon_state = "exotic"; dir = 2},/area/dunwell/station/medbay)
 "bmC" = (/obj/structure/window/full/reinforced/black{icon_state = "blackwindow1"; dir = 1},/turf/simulated/floor/plating,/area/dunwell/miscplaces)
@@ -4570,9 +4570,9 @@
 "bLk" = (/obj/structure/lifeweb/s_stone/xsd{icon_state = "aborder1"; dir = 6},/obj/structure/lifeweb/statue/green2,/turf/simulated/floor/plating/dirt2,/area/dunwell/station)
 "bLl" = (/obj/structure/lifeweb/s_stone/xsd,/turf/simulated/floor/plating/dirt2,/area/dunwell/station)
 "bLm" = (/obj/structure/lifeweb/s_stone/xsd,/obj/structure/lifeweb/tallshroom,/turf/simulated/floor/plating/dirt2,/area/dunwell/station)
-"bLn" = (/obj/item/weapon/storage/drawer,/obj/item/condom_wrapper/regular,/turf/simulated/floor/lifeweb{icon_state = "brothel"; dir = 2},/area/dunwell/station/brothel)
-"bLo" = (/obj/structure/stool/bed/brothel,/obj/item/condom_wrapper/large,/turf/simulated/floor/lifeweb{icon_state = "bloodf2"; dir = 2},/area/dunwell/station/brothel)
-"bLp" = (/obj/machinery/light/small/red,/obj/structure/rack/lwtable/table6,/obj/item/weapon/lipstick/random,/obj/item/condom_wrapper/small,/turf/simulated/floor/lifeweb{icon_state = "bloodf2"; dir = 2},/area/dunwell/station/brothel)
+"bLn" = (/obj/item/weapon/storage/drawer,/turf/simulated/floor/lifeweb{icon_state = "brothel"; dir = 2},/area/dunwell/station/brothel)
+"bLo" = (/obj/structure/stool/bed/brothel,/turf/simulated/floor/lifeweb{icon_state = "bloodf2"; dir = 2},/area/dunwell/station/brothel)
+"bLp" = (/obj/machinery/light/small/red,/obj/structure/rack/lwtable/table6,/obj/item/weapon/lipstick/random,/turf/simulated/floor/lifeweb{icon_state = "bloodf2"; dir = 2},/area/dunwell/station/brothel)
 "bLq" = (/obj/structure/lifeweb/tallshroom,/turf/simulated/floor/plating/dirt2,/area/dunwell/station)
 "bLr" = (/obj/item/weapon/kitchen/utensil/knife,/obj/item/device/radio/beacon,/turf/simulated/floor/lifeweb/stone{icon_state = "4,3"},/area/dunwell/station/burrow)
 "bLs" = (/obj/item/trash/candy,/obj/item/device/radio/beacon,/turf/simulated/floor/plating/dirt_path,/area/dunwell/station/burrow)
@@ -5170,7 +5170,7 @@ afKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKapUapUapUafKafKafKafKaf
 afKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKapUapUapUafKafKafKafKafKafKafKbdMbdMbdMbdMbdMbdMbdMbdMbdMbdMbdMbdMbdMbdMbdMbdMbdMbdMafmaBBaBBaBBaBBaBBaBBafbafcatgauOazFazKazLaywaztazPazQazRazzayzazSazTaxFaeOarHayRapuaqjaeNapUapUapUapUapUafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafK
 afKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKapUapUapUafKafKafKafKafKafKafKbdMbdMbdMbdMbdMbdMbdMbdMbdMbdMbdMbdMbdMbdMbdMbdMbdMbdMaeNaeNbjqbjqbjqbjqaeNaeNaeNaeNaeNaxFaBeayFaEoaztaFqaFTaKtazzaKuaMfaOEayYbxJarvarxazcazdaeNapUapUapUapUapUafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafK
 afKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKapUapUapUafKafKafKafKafKafKafKbdMbdMbdMbdMbdMbdMbdMbdMbdMbdMbdMbdMbdMbdMbdMbdMbdMbdMbdMaeNaaYaaYaaYaaYaeNafKafKafKafKayYaBeayFaywaWCaPQaRTaRUaWDayzaWtaYnbaiastaeVasuavdavcafmapUapUapUapUapUafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafK
-afKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKapUapUapUafKafKafKafKafKafKafKbdMbdMbdMbdMbdMbdMbdMbdMbdMbdMbdMbdMbdMbdMbdMbdMbdMbdMbdMaeNaaYaaaaaaaaYaeNafKafKafKafKaxFbghayPaywaWCbgibhZblwaWDayzayWblxbzoatgauMauObmDazoaeNapUapUapUapUapUafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafK
+afKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKapUapUapUafKafKafKafKafKafKafKbdMbdMbdMbdMbdMbdMbdMbdMbdMbdMbdMbdMbdMbdMbdMbdMbdMbdMbdMaeNaaYaaaaaaaaYaeNafKafKafKafKaxFbghayPaywaWCbgibhZblwaWDayzayWblxbzoatgauMauObmDazoaeNapUapUapUapUapUafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKaAeafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafK
 afKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKapUapUapUafKafKafKafKafKafKafKbdMbdMbdMbdMbdMbdMbdMbdMbdMbdMbdMbdMbdMbdMbdMbdMbdMbdMbdMaeNaaYaaaaaaaaYaeNafKafKafKatybmEbmFbscawhawibxlbxLbxMawhawibscbxNbxOazMaqHaslberbesbesapUapUapUapUapUafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafK
 afKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKapUapUapUafKafKafKafKafKafKafKbdMbdMbdMbdMbdMbdMbdMbdMbdMbdMbdMbdMbdMbdMbdMbdMbdMbdMbdMaeNaaYaaYaaYaaYaeNafKafKaQaatHawebxTbxUbxVayFbxWbyvazTayDbyLbyMbyNaxBbetazNazNazOazUbgnbeuapUapUapUapUafKafKafKafZafZafZafZafZafZafZafZafZafZafZafZafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafK
 afKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKapUapUapUafKaaaaaaafKafKafKafKbdMbdMbdMbdMbdMbdMbdMbdMbdMbdMbdMbdMbdMbdMbdMbdMbdMbdMbdMaeNaeNaeNaeNaeNaeNbiaafKaQaauoaxzbyObyPbyQayFbyRbySbyTayDbyUbyPbyOawTbevazVazWazWazWazXbeuapUapUapUapUafKafKafKafZafZafZafZafQaUiafQafZafZagbaljaCJafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafKafK

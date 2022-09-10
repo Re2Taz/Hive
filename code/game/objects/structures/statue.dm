@@ -15,7 +15,6 @@
 	icon = 'icons/life/LFWB_USEFUL.dmi'
 	icon_state = "wcross"
 
-
 /obj/structure/lifeweb/statue/angel2
 	icon_state = "angel2"
 
@@ -30,6 +29,10 @@
 
 /obj/structure/lifeweb/statue/statue7
 	icon_state = "statue7"
+
+/obj/structure/lifeweb/statue/aquilla
+	icon_state = "aquilla"
+	desc = "aquilla statue"
 
 /obj/structure/lifeweb/statue/statue5
 	icon_state = "statue5"

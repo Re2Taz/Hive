@@ -326,6 +326,9 @@
 /obj/structure/stool/bed/chair/comfy/black
 	icon_state = "comfychair_black"
 
+/obj/structure/stool/bed/chair/comfy/scrapthrone
+	icon_state = "throne_scrap"
+
 /obj/structure/stool/bed/chair/comfy/cavethrone
 	icon_state = "comfychair_black"
 

@@ -950,6 +950,9 @@
 /obj/structure/rack/lwtable/tablewitch
 	icon_state = "witchtable"
 
+/obj/structure/rack/lwtable/golden_table
+	icon_state = "golden_table"
+
 /obj/structure/rack/lwtable/table2
 	icon_state = "table2"
 

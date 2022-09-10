@@ -9,7 +9,7 @@
 "ai" = (/obj/machinery/door/airlock/brothel/miniwar{name = "war airlock"; req_access_txt = "999"; req_one_access_txt = "999"},/turf/simulated/floor/lifeweb/npolar2,/area/dunwell/miniwar)
 "aj" = (/turf/simulated/floor/plating/dirt,/area/dunwell/miniwar)
 "ak" = (/obj/effect/mound,/turf/simulated/floor/plating/dirt,/area/dunwell/miniwar)
-"al" = (/obj/item/stack/bullets/Newduelista/three,/turf/simulated/floor/plating/dirt,/area/dunwell/miniwar)
+"al" = (/obj/effect/hole_trap/three,/turf/simulated/floor/plating/dirt,/area/dunwell/miniwar)
 "am" = (/obj/effect/landmark/mapinfo{mapname = "Mini War"},/obj/effect/landmark/zcontroller{down = 2; down_target = 2; up = 2; up_target = 2},/turf/simulated/wall/r_wall/cave/white/hard,/area/dunwell/miniwar)
 "an" = (/obj/effect/landmark{name = "MiniWarN"},/turf/simulated/floor/lifeweb/npolar2,/area/dunwell/miniwar)
 "ao" = (/obj/structure/lifeweb/stairs/wooden,/turf/simulated/floor/lifeweb/npolar2,/area/dunwell/miniwar)

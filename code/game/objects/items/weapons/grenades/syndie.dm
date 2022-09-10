@@ -103,3 +103,15 @@
 /obj/item/weapon/grenade/syndieminibomb/frag/suicide/prime()
 	explosion(src.loc,0,0,6,6)
 	qdel(src)
+
+/obj/item/weapon/grenade/syndieminibomb/frag/imperium
+	desc = "fragmentation grenade"
+	name = "A military fragmentation grenade, designed to explode in a deadly shower of fragments, while avoiding massive structural damage."
+	icon = 'icons/obj/grenade.dmi'
+	icon_state = "fraggrenade"
+	item_state = "flashbang"
+	origin_tech = "materials=3;magnets=4;syndicate=4"
+
+/obj/item/weapon/grenade/syndieminibomb/frag/suicide/prime()
+	explosion(src.loc,0,0,6,6)
+	qdel(src)

@@ -784,6 +784,13 @@ datum/reagent/antihol/on_mob_life(var/mob/living/M as mob)
 	metabolization_rate = 0.4
 	overdose_threshold = 60
 
+/datum/reagent/tr
+	name = "tissue rebuilder"
+	description = "helps to seal the wounds and rejuvenate the blood supply of the user."
+	color = "#c10158"
+	metabolization_rate = 0.4
+	overdose_threshold = 20
+
 datum/reagent/stimulants/on_mob_life(var/mob/living/M as mob)
 	if(!M) M = holder.my_atom
 	if(M.health < 50 && M.health > 0)

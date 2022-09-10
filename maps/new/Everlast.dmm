@@ -83,7 +83,7 @@
 "bE" = (/obj/structure/rack/lwtable/reinftable3{dir = 1; icon_state = "reinf_table3"; narrow = 1},/obj/structure/window/reinforced{icon_state = "rwindow"; dir = 4},/obj/item/weapon/storage/backpack/minisatchel,/turf/simulated/floor/lifeweb/cerb,/area/dunwell/station/gates)
 "bF" = (/turf/simulated/floor/lifeweb/wood/nf2{icon_state = "nf2"; dir = 6},/area/dunwell/station/gates)
 "bG" = (/turf/simulated/wall/r_wall/keep/bg,/turf/simulated/wall/r_wall/keep/_2{icon_state = "2"; dir = 4},/area/dunwell/surface)
-"bH" = (/obj/structure/stool/bed/chair/ThroneSides,/obj/structure/fireplace/alt2{lightforce = 3; lightrange = 5},/turf/simulated/floor/lifeweb{icon_state = "bbb"; dir = 1},/area/dunwell/surface)
+"bH" = (/obj/structure/stool/bed/chair/ThroneSides,/obj/structure/fireplace/alt2{!INVALID_VAR! = 3; !INVALID_VAR! = 5},/turf/simulated/floor/lifeweb{icon_state = "bbb"; dir = 1},/area/dunwell/surface)
 "bI" = (/turf/simulated/floor/lifeweb/wood/nf22{icon_state = "nf22"; dir = 4},/area/dunwell/station/gates)
 "bJ" = (/obj/effect/decal/cleanable/cum,/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
 "bK" = (/obj/structure/rack/iron,/turf/simulated/floor/lifeweb/plazar2,/area/dunwell/surface)
@@ -102,7 +102,7 @@
 "bX" = (/turf/simulated/wall/r_wall/keep/bg,/turf/simulated/wall/r_wall/keep/_4{icon_state = "4"; dir = 5},/area/dunwell/station/bridge)
 "bY" = (/obj/structure/window/full/reinforced/black{icon_state = "twindowold"; dir = 10},/turf/simulated/floor/lifeweb/nfloorz2,/area/dunwell/surface)
 "bZ" = (/turf/simulated/floor/lifeweb{icon_state = "bbb"; dir = 1},/area/dunwell/station/bridge)
-"ca" = (/obj/structure/stool/bed/chair/ThroneSides,/obj/structure/fireplace/alt2{lightforce = 3; lightrange = 5},/turf/simulated/floor/lifeweb{icon_state = "bbb"; dir = 1},/area/dunwell/station/bridge)
+"ca" = (/obj/structure/stool/bed/chair/ThroneSides,/obj/structure/fireplace/alt2{!INVALID_VAR! = 3; !INVALID_VAR! = 5},/turf/simulated/floor/lifeweb{icon_state = "bbb"; dir = 1},/area/dunwell/station/bridge)
 "cb" = (/turf/simulated/floor/lifeweb{icon_state = "bar2r"; dir = 1},/area/dunwell/surface)
 "cc" = (/turf/simulated/floor/carpet/beatifulcarpet3{icon_state = "carpbet2side"; dir = 9},/area/dunwell/surface)
 "cd" = (/turf/simulated/floor/carpet/beatifulcarpet3{icon_state = "carpbet2side"; dir = 1},/area/dunwell/surface)
@@ -125,7 +125,7 @@
 "cu" = (/turf/simulated/floor/os13/ladderl{icon_state = "ladderleft"; dir = 1},/area/dunwell/station/bridge)
 "cv" = (/turf/simulated/floor/os13/ladderl{icon_state = "ladderleft"; dir = 8},/area/dunwell/station/bridge)
 "cw" = (/turf/simulated/floor/os13/ladderr{icon_state = "ladderright"; dir = 1},/area/dunwell/station/bridge)
-"cx" = (/obj/structure/stool/bed/chair/ThroneSides{icon_state = "thronecenter"; dir = 1},/obj/structure/fireplace/alt2{lightforce = 3; lightrange = 5},/turf/simulated/floor/lifeweb{icon_state = "bbb"; dir = 1},/area/dunwell/station/bridge)
+"cx" = (/obj/structure/stool/bed/chair/ThroneSides{icon_state = "thronecenter"; dir = 1},/obj/structure/fireplace/alt2{!INVALID_VAR! = 3; !INVALID_VAR! = 5},/turf/simulated/floor/lifeweb{icon_state = "bbb"; dir = 1},/area/dunwell/station/bridge)
 "cy" = (/obj/structure/fireplace,/turf/simulated/floor/lifeweb/nfloorz2,/area/dunwell/station/bridge)
 "cz" = (/obj/structure/window/full/reinforced/black{icon_state = "twindowold"; dir = 10},/turf/simulated/floor/lifeweb/nfloorz2,/area/dunwell/station/bridge)
 "cA" = (/turf/simulated/wall/r_wall/keep/bg,/turf/simulated/wall/r_wall/keep/_2{icon_state = "2"; dir = 6},/area/dunwell/station/bridge)
@@ -568,7 +568,7 @@
 "kX" = (/turf/simulated/floor/lifeweb/cerb,/turf/simulated/floor/carpet/beatifulcarpet10{icon_state = "mcarpet2"; dir = 8},/area/dunwell/surface)
 "kY" = (/obj/structure/torchwall{icon_state = "torchwall0"; dir = 8},/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
 "kZ" = (/obj/structure/stool/bed/chair/ThroneMid,/obj/effect/landmark/start{name = "Baron"},/turf/simulated/floor/lifeweb{icon_state = "bbb"; dir = 1},/area/dunwell/surface)
-"la" = (/obj/structure/stool/bed/chair/ThroneSides{icon_state = "thronecenter"; dir = 1},/obj/structure/fireplace/alt2{lightforce = 3; lightrange = 5},/turf/simulated/floor/lifeweb{icon_state = "bbb"; dir = 1},/area/dunwell/surface)
+"la" = (/obj/structure/stool/bed/chair/ThroneSides{icon_state = "thronecenter"; dir = 1},/obj/structure/fireplace/alt2{!INVALID_VAR! = 3; !INVALID_VAR! = 5},/turf/simulated/floor/lifeweb{icon_state = "bbb"; dir = 1},/area/dunwell/surface)
 "lb" = (/mob/living/simple_animal/mouse,/turf/simulated/floor/lifeweb{icon_state = "bbb"; dir = 1},/area/dunwell/surface)
 "lc" = (/obj/structure/closet/crate,/obj/item/clothing/under/child_jumpsuit,/obj/item/weapon/kitchen/utensil/spoon,/turf/simulated/floor/lifeweb/wood/nf22{icon_state = "nf22"; dir = 10},/area/dunwell/surface)
 "ld" = (/obj/structure/closet/lwfb/portal{icon_closed = "cabinet2_closed"; icon_opened = "cabinet2_open"; icon_state = "cabinet2_closed"},/obj/item/weapon/kitchen/utensil/fork,/obj/item/clothing/shoes/lw/child/shoes,/turf/simulated/floor/lifeweb/wood/nf22{icon_state = "nf22"; dir = 9},/area/dunwell/surface)
@@ -814,22 +814,10 @@
 "pL" = (/obj/structure/rack/lwtable/table1{icon_state = "bigtable"; dir = 8},/obj/item/weapon/cloaking_device/brothel,/obj/machinery/light{dir = 4; icon_state = "tube1"},/turf/simulated/floor/lifeweb{icon_state = "brothel"; dir = 4},/area/dunwell/surface)
 "pN" = (/obj/structure/sink{dir = 4; icon_state = "sink"; pixel_x = 4; pixel_y = 0},/turf/simulated/floor/lifeweb/wood,/area/dunwell/surface)
 "pO" = (/obj/structure/lifeweb/s_stone/xsd{icon_state = "aborder1"; dir = 4},/obj/structure/sink{dir = 4; icon_state = "sink"; pixel_x = 4; pixel_y = 0},/turf/simulated/floor/lifeweb/newbar2{icon_state = "newbar2"; dir = 4},/area/dunwell/surface)
-"pQ" = (/turf/simulated/floor/lifeweb/stone,/turf/simulated/floor/lifeweb/elevator/elevatorte{icon_state = "elevatorte"; dir = 8},/area/dunwell/surface)
 "pS" = (/obj/structure/lifeweb/s_stone/xsd{icon_state = "aborder1"; dir = 8},/turf/simulated/floor/lifeweb/nfloorz3,/area/dunwell/surface)
-"pT" = (/turf/simulated/floor/lifeweb/stone,/turf/simulated/floor/lifeweb/elevator/elevatorte{icon_state = "elevatorte"; dir = 10},/area/dunwell/surface)
-"pU" = (/turf/simulated/floor/lifeweb/stone,/turf/simulated/floor/lifeweb/elevator/elevatorte{icon_state = "elevatorte"; dir = 5},/area/dunwell/surface)
-"pV" = (/turf/simulated/floor/lifeweb/stone,/turf/simulated/floor/lifeweb/elevator/elevatori{icon_state = "elevatori"; dir = 6},/area/dunwell/surface)
-"pW" = (/turf/simulated/floor/lifeweb/elevator/elevatorte,/area/dunwell/surface)
-"pX" = (/turf/simulated/floor/lifeweb/elevator/elevatorte{icon_state = "elevatorte"; dir = 1},/area/dunwell/surface)
-"pY" = (/turf/simulated/floor/lifeweb/stone,/turf/simulated/floor/lifeweb/elevator/elevatori{icon_state = "elevatori"; dir = 9},/area/dunwell/surface)
 "pZ" = (/obj/multiz/stairs/active/bottom/wood{icon_state = "wramp"; dir = 4},/turf/simulated/floor/lifeweb/nfloorz3,/area/dunwell/river)
 "qa" = (/turf/simulated/floor/lifeweb/newbar{icon_state = "newbar"; dir = 4},/area/dunwell/surface)
-"qb" = (/turf/simulated/floor/lifeweb/elevator/elevatori{icon_state = "elevatori"; dir = 10},/area/dunwell/surface)
-"qc" = (/turf/simulated/floor/lifeweb/elevator/elevatori{icon_state = "elevatori"; dir = 5},/area/dunwell/surface)
-"qd" = (/turf/simulated/floor/lifeweb/stone,/turf/simulated/floor/lifeweb/elevator/elevatori,/area/dunwell/surface)
-"qe" = (/turf/simulated/floor/lifeweb/stone,/turf/simulated/floor/lifeweb/elevator/elevatori{icon_state = "elevatori"; dir = 4},/area/dunwell/surface)
-"qf" = (/turf/simulated/floor/lifeweb/stone,/turf/simulated/floor/lifeweb/elevator/elevatori{icon_state = "elevatori"; dir = 1},/area/dunwell/surface)
-"qg" = (/turf/simulated/floor/lifeweb/stone,/turf/simulated/floor/lifeweb/elevator/elevatori{icon_state = "elevatori"; dir = 8},/area/dunwell/surface)
+"qg" = (/turf/simulated/floor/lifeweb/stone,/area/dunwell/surface)
 "qh" = (/turf/simulated/floor/lifeweb/wood/woodbf2{icon_state = "bf2"; dir = 10},/area/dunwell/surface)
 "qi" = (/obj/multiz/stairs/active/bottom/wood{icon_state = "wramp"; dir = 4},/turf/simulated/floor/lifeweb{icon_state = "24"},/area/dunwell/river)
 "qj" = (/obj/multiz/stairs/enter/bottom{icon_state = "rampbottom"; dir = 4},/turf/simulated/floor/lifeweb{icon_state = "24"},/area/dunwell/surface)
@@ -885,11 +873,11 @@
 "sj" = (/obj/structure/door_protect{icon_state = "door_open"; dir = 4},/turf/simulated/floor/lifeweb{icon_state = "bar2r"; dir = 1},/area/dunwell/surface)
 "sk" = (/obj/structure/rack/lwtable/table10end{icon_state = "wood_1tileendtable"; dir = 1},/obj/item/device/rim_card,/obj/item/device/rim_card,/obj/item/device/rim_card,/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
 "sl" = (/obj/machinery/light/small/mijadablue,/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
-"sn" = (/obj/structure/rack/lwtable/reinftable3{dir = 4; icon_state = "reinf_table3"; narrow = 1},/obj/item/condom_wrapper/regular,/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
+"sn" = (/obj/structure/rack/lwtable/reinftable3{dir = 4; icon_state = "reinf_table3"; narrow = 1},/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
 "so" = (/obj/structure/aibots,/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
-"sp" = (/obj/structure/rack/lwtable/reinftable/middle,/obj/item/condom_wrapper/large,/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
+"sp" = (/obj/structure/rack/lwtable/reinftable/middle,/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
 "sq" = (/obj/structure/rack/lwtable/reinftable3{dir = 4; icon_state = "reinf_table3"; narrow = 1},/obj/item/stack/bullets/Newduelista,/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
-"sr" = (/obj/structure/rack/lwtable/reinftable/end{narrow = 1},/obj/item/condom_wrapper/small,/obj/item/clothing/under/rank/migrant/bum,/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
+"sr" = (/obj/structure/rack/lwtable/reinftable/end{narrow = 1},/obj/item/clothing/under/rank/migrant/bum,/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
 "sv" = (/obj/structure/rack/lwtable/reinftable/horizontal,/obj/structure/door_protect,/obj/item/stack/bullets/Newduelista,/turf/simulated/floor/plating/dirt,/area/dunwell/surface)
 "sw" = (/obj/structure/rack/lwtable/reinftable/horizontal{icon_state = "table_horizontal2"; dir = 4},/obj/structure/door_protect{icon_state = "door_open"; dir = 1},/obj/item/weapon/storage/briefcase,/turf/simulated/floor/plating/dirt,/area/dunwell/surface)
 "sx" = (/obj/structure/lifeweb/stairs/wooden{icon_state = "wramp"; dir = 1},/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
@@ -1472,10 +1460,10 @@ acacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacac
 acacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxadadadadokoEoPadadoZoZoZoZoZqyokoEoPadacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacac
 acacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacaxaxaxaxaxaxaxaxacacacacacacacacacacacadoDpKpSadadaKaKaKaKaKadoDpKpSadacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacac
 acacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacaxaxaxaxaxaxaxaxacacacacacacacacacacacadokoEoPadaKaKaKaKaKaKadokoEoPadadacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacac
-acacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacaxaxaxaxaxaxaxaxacacacacacacacadadadadadpAqhpBqlaKpQpTpTpUaKqmpAqhpBqladacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacac
-acacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacaxaxaxaxaxaxaxaxacacacacacacacadadqlqaospFpGpHqlhtpVpWpXpYhtqmpFpGpHqladacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacac
-acacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacaxaxaxaxaxaxaxaxoQoQoQoQoQoQoQolpZqnqaqmpCpIpDqlpJpVqbqcpYpJqmpCpIpDqladacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacac
-acacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacaxaxaxaxaxaxaxaxoQoQoQoQoQoQoQolqiqjqkqkqkqkqkqkaKqdqeqfqgaKqkqkqkqkfKadacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacac
+acacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacaxaxaxaxaxaxaxaxacacacacacacacadadadadadpAqhpBqlaKqgqgqgqgaKqmpAqhpBqladacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacac
+acacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacaxaxaxaxaxaxaxaxacacacacacacacadadqlqaospFpGpHqlhtqgacacqghtqmpFpGpHqladacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacac
+acacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacaxaxaxaxaxaxaxaxoQoQoQoQoQoQoQolpZqnqaqmpCpIpDqlpJqgacacqgpJqmpCpIpDqladacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacac
+acacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacaxaxaxaxaxaxaxaxoQoQoQoQoQoQoQolqiqjqkqkqkqkqkqkaKqgqgqgqgaKqkqkqkqkfKadacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacac
 acacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacaxaxaxaxaxaxaxaxoQoQoQoQoQoQoQololqlqaqapCpIpDqlaKaKaKaKaKaKqmpCpIpDqladacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacac
 acacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacaxaxaxaxaxaxaxaxoQpnpnpnpnpnpnpnpnobaXbbbbbboaopobobobobobobqmgrgrgrgradacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacac
 acacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacaxaxaxaxaxaxaxaxoQpnqoqoqpqqqrqsqsobodoeoeoellfIoboyozoAoLobadadadadadadacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacac

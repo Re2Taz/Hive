@@ -131,6 +131,15 @@ for reference:
 		else
 			return 0
 
+/obj/structure/barricade/tank
+	name = "hedgehog"
+	desc = "This space is blocked off by a steel hedgehog."
+	icon = 'icons/obj/structures.dmi'
+	icon_state = "tank"
+	anchored = 1.0
+	density = 1.0
+	var/health = 1000.0
+	var/maxhealth = 1000.0
 
 //Actual Deployable machinery stuff
 
