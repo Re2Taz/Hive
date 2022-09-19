@@ -1,9 +1,9 @@
-# Infernum
+# Persistence Archon 13
 *An OpenSourceWeb downstream*
 
 ---
 
-**INFORMATION:** Discord server: https://discord.gg/FhpEuBEMpM
+**INFORMATION:** Discord server: 
 
 ---
 
