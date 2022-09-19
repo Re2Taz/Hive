@@ -1355,10 +1355,6 @@ datum/preferences
 				if(prob(25))
 					//character.jewish = TRUE
 					character.add_perk(/datum/perk/ref/value)
-			if("Aranea")
-				if(prob(25))
-					//character.jewish = TRUE
-					character.add_perk(/datum/perk/sexaddict)
 			if("Cygnus")
 				if(prob(25))
 					character.add_event("nobleblood", /datum/happiness_event/noble_blood)

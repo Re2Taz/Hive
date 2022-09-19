@@ -88,6 +88,7 @@ var/list/baronfamily = list(
 var/list/command_positions = list(
 	"Baron",
 	"Marduk",
+	"GOD",
 	"Hand",
 	"Heir",
 	"Baroness",

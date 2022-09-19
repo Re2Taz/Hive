@@ -624,24 +624,13 @@ var/list/ghostteleportlocs = list()
 
 /area/dunwell/persistence
 	name = "Surface"
-	forced_ambience = list('surfacing.ogg')
+	forced_ambience = list('jungle1.ogg')
 	icon_state = "camp2"
 	has_gravity = 1
 	atmos = 0
 	hum = 0
 	luminosity = 1
 	lighting_use_dynamic = FALSE
-
-/area/dunwell/persistence/Entered(A)
-	..()
-	if(ismob(A))
-		var/mob/M = A
-		if(M.client)
-
-			M.overlay_fullscreen("surface", /obj/screen/fullscreen/surface)
-			for(var/obj/I in M?.client?.usingPlanes)
-				if(I.plane == -10) continue //shitcode but if it's blur plane, don't blur it more.
-				if(I.plane == 18) continue //shitcode but if it's SHADOWCASTING plane, don't blur it more.
 
 /area/dunwell/station/dungeon
 	name = "Dungeon"

@@ -107,10 +107,6 @@
 	name = "Interrogate"
 	description = "They notice my questions."
 
-/datum/perk/sexaddict
-	name = "Sexaddict"
-	description = "I am obsessed with sex."
-
 /datum/perk/ref/cavetravel
 	name = "cavetravel"
 	description = "I know how to travel the caves fast."

@@ -27,7 +27,7 @@ proc/pick_craft_recipe(var/recipe_id)
 	name = "Wood floor"
 	id = "woodfloor"
 	skillRequired = SKILL_CRAFT
-	skill_value = 7
+	skill_value = 1
 	materials = list(/obj/item/stack/sheet/wood = 1)
 	desc_materials = "1 shroomwood logs"
 	path_type = /turf/simulated/floor/lifeweb/wood
@@ -37,7 +37,7 @@ proc/pick_craft_recipe(var/recipe_id)
 	name = "Wood wall"
 	id = "woodwall"
 	skillRequired = SKILL_CRAFT
-	skill_value = 7
+	skill_value = 1
 	materials = list(/obj/item/stack/sheet/wood = 3)
 	desc_materials = "3 shroomwood logs"
 	path_type = /turf/simulated/wall/woodwall
@@ -46,7 +46,7 @@ proc/pick_craft_recipe(var/recipe_id)
 	name = "Wooden Door"
 	id = "wooddoor"
 	skillRequired = SKILL_CRAFT
-	skill_value = 7
+	skill_value = 1
 	materials = list(/obj/item/stack/sheet/wood = 3)
 	desc_materials = "3 shroomwood logs"
 	path_type = /obj/structure/mineral_door/wood
@@ -56,7 +56,7 @@ proc/pick_craft_recipe(var/recipe_id)
 	name = "Wooden chair"
 	id = "woodchair"
 	skillRequired = SKILL_CRAFT
-	skill_value = 3
+	skill_value = 1
 	materials = list(/obj/item/stack/sheet/wood = 2)
 	desc_materials = "2 shroomwood logs"
 	path_type = /obj/structure/stool/bed/chair/comfy/woodencave
@@ -65,7 +65,7 @@ proc/pick_craft_recipe(var/recipe_id)
 	name = "Bed"
 	id = "bed"
 	skillRequired = SKILL_CRAFT
-	skill_value = 3
+	skill_value = 1
 	materials = list(/obj/item/stack/sheet/wood = 2)
 	desc_materials = "2 shroomwood logs"
 	path_type = /obj/structure/stool/bed
@@ -74,7 +74,7 @@ proc/pick_craft_recipe(var/recipe_id)
 	name = "Chest"
 	id = "chest"
 	skillRequired = SKILL_CRAFT
-	skill_value = 5
+	skill_value = 1
 	materials = list(/obj/item/stack/sheet/wood = 3)
 	desc_materials = "3 shroomwood logs"
 	path_type = /obj/structure/closet/crate
@@ -83,7 +83,7 @@ proc/pick_craft_recipe(var/recipe_id)
 	name = "Wooden coffin"
 	id = "coffin"
 	skillRequired = SKILL_CRAFT
-	skill_value = 7
+	skill_value = 1
 	materials = list(/obj/item/stack/sheet/wood = 6)
 	desc_materials = "6 shroomwood logs"
 	path_type = /obj/structure/closet/coffin/wood
@@ -92,7 +92,7 @@ proc/pick_craft_recipe(var/recipe_id)
 	name = "Toilet"
 	id = "toilet"
 	skillRequired = SKILL_CRAFT
-	skill_value = 5
+	skill_value = 1
 	materials = list(/obj/item/weapon/stone = 3)
 	desc_materials = "3 stone"
 	path_type = /obj/structure/toilet/stone
@@ -101,7 +101,7 @@ proc/pick_craft_recipe(var/recipe_id)
 	name = "Campfire"
 	id = "campfire"
 	skillRequired = SKILL_SURVIV
-	skill_value = 3
+	skill_value = 1
 	materials = list(/obj/item/stack/sheet/wood = 2)
 	desc_materials = "2 shroomwood logs"
 	path_type = /obj/structure/campfire
@@ -110,7 +110,7 @@ proc/pick_craft_recipe(var/recipe_id)
 	name = "Fireplace"
 	id = "fireplace"
 	skillRequired = SKILL_CRAFT
-	skill_value = 7
+	skill_value = 1
 	materials = list(/obj/item/weapon/stone = 4, /obj/item/weapon/ore/lw/coal = 1)
 	desc_materials = "4 stone, 1 coal"
 	path_type = /obj/structure/fireplace/off
@@ -119,7 +119,7 @@ proc/pick_craft_recipe(var/recipe_id)
 	name = "Training doll"
 	id = "traindoll"
 	skillRequired = SKILL_CRAFT
-	skill_value = 7
+	skill_value = 1
 	materials = list(/obj/item/stack/sheet/wood = 3)
 	desc_materials = "3 shroomwood logs"
 	path_type = /obj/structure/lifeweb/statue/dummy
@@ -128,7 +128,7 @@ proc/pick_craft_recipe(var/recipe_id)
 	name = "Wooden mining cart"
 	id = "mining_cart"
 	skillRequired = SKILL_CRAFT
-	skill_value = 7
+	skill_value = 1
 	materials = list(/obj/item/stack/sheet/wood = 5)
 	desc_materials = "5 shroomwood logs"
 	path_type = /obj/structure/miningcar/wooden
@@ -137,7 +137,7 @@ proc/pick_craft_recipe(var/recipe_id)
 	name = "Wooden table"
 	id = "w_table"
 	skillRequired = SKILL_CRAFT
-	skill_value = 7
+	skill_value = 1
 	materials = list(/obj/item/stack/sheet/wood = 2)
 	desc_materials = "2 shroomwood logs"
 	path_type = /obj/structure/rack/lwtable/table3
@@ -146,7 +146,7 @@ proc/pick_craft_recipe(var/recipe_id)
 	name = "Wooden bookcase"
 	id = "bookcase"
 	skillRequired = SKILL_CRAFT
-	skill_value = 5
+	skill_value = 1
 	materials = list(/obj/item/stack/sheet/wood = 3)
 	desc_materials = "3 shroomwood logs"
 	path_type = /obj/structure/bookcase/empty
@@ -155,7 +155,7 @@ proc/pick_craft_recipe(var/recipe_id)
 	name = "Wooden rack"
 	id = "w_rack"
 	skillRequired = SKILL_CRAFT
-	skill_value = 5
+	skill_value = 1
 	materials = list(/obj/item/stack/sheet/wood = 2)
 	desc_materials = "2 shroomwood logs"
 	path_type = /obj/structure/rack
@@ -164,7 +164,7 @@ proc/pick_craft_recipe(var/recipe_id)
 	name = "Hearth"
 	id = "hearth"
 	skillRequired = SKILL_CRAFT
-	skill_value = 5
+	skill_value = 1
 	materials = list(/obj/item/stack/sheet/wood = 2)
 	desc_materials = "2 shroomwood logs"
 	path_type = /obj/structure/fireplace/hearth
@@ -175,7 +175,7 @@ proc/pick_craft_recipe(var/recipe_id)
 	name = "Torch"
 	id = "torch"
 	skillRequired = SKILL_SURVIV
-	skill_value = 2
+	skill_value = 1
 	materials = list(/obj/item/stack/sheet/wood = 1)
 	desc_materials = "1 shroomwood logs"
 	path_type = /obj/item/weapon/flame/torch
@@ -186,7 +186,7 @@ proc/pick_craft_recipe(var/recipe_id)
 	name = "Wooden stake"
 	id = "stake"
 	skillRequired = SKILL_SURVIV
-	skill_value = 2
+	skill_value = 1
 	materials = list(/obj/item/stack/sheet/wood = 1)
 	desc_materials = "1 shroomwood logs"
 	path_type = /obj/item/weapon/kitchen/utensil/knife/dagger/wood_stake
@@ -277,7 +277,7 @@ proc/pick_craft_recipe(var/recipe_id)
 	name = "Wooden club"
 	id = "woodclub"
 	skillRequired = SKILL_MASON
-	skill_value = 5
+	skill_value = 1
 	materials = list(/obj/item/stack/sheet/wood = 2)
 	desc_materials = "2 shroomwood logs"
 	path_type = /obj/item/weapon/melee/classic_baton/woodenclub
@@ -309,7 +309,7 @@ proc/pick_craft_recipe(var/recipe_id)
 	name = "Shovel"
 	id = "shovel"
 	skillRequired = SKILL_CRAFT
-	skill_value = 3
+	skill_value = 1
 	materials = list(/obj/item/stack/sheet/wood = 2)
 	desc_materials = "2 shroomwood logs"
 	path_type = /obj/item/weapon/shovel
@@ -320,7 +320,7 @@ proc/pick_craft_recipe(var/recipe_id)
 	name = "Mug"
 	id = "mug"
 	skillRequired = SKILL_CRAFT
-	skill_value = 3
+	skill_value = 1
 	materials = list(/obj/item/stack/sheet/wood = 1)
 	desc_materials = "1 shroomwood logs"
 	path_type = /obj/item/weapon/reagent_containers/glass/wood
@@ -331,7 +331,7 @@ proc/pick_craft_recipe(var/recipe_id)
 	name = "Bucket"
 	id = "bucket"
 	skillRequired = SKILL_CRAFT
-	skill_value = 3
+	skill_value = 1
 	materials = list(/obj/item/stack/sheet/wood = 3)
 	desc_materials = "3 shroomwood logs"
 	path_type = /obj/item/weapon/reagent_containers/glass/bucket
@@ -345,7 +345,7 @@ proc/pick_craft_recipe(var/recipe_id)
 	name = "Angel statue"
 	id = "angelstatue"
 	skillRequired = SKILL_CRAFT
-	skill_value = 7
+	skill_value = 1
 	materials = list(/obj/item/weapon/stone = 5)
 	desc_materials = "5 stone"
 	path_type = /obj/structure/lifeweb/statue/angel2
@@ -355,7 +355,7 @@ proc/pick_craft_recipe(var/recipe_id)
 	id = "stonecross"
 	cult_type = "Gray Church"
 	skillRequired = SKILL_CRAFT
-	skill_value = 7
+	skill_value = 1
 	materials = list(/obj/item/weapon/stone = 5)
 	desc_materials = "5 stone"
 	path_type = /obj/structure/lifeweb/statue/wcross
@@ -365,7 +365,7 @@ proc/pick_craft_recipe(var/recipe_id)
 	id = "lazaro"
 	cult_type = "Old Ways"
 	skillRequired = SKILL_CRAFT
-	skill_value = 3
+	skill_value = 1
 	materials = list(/obj/item/weapon/stone = 5)
 	desc_materials = "5 stone"
 	path_type = /obj/structure/oldways/lazaro
