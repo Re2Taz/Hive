@@ -40,7 +40,7 @@
 	access = list()
 	minimal_access = list()
 	latejoin_locked = FALSE
-	thanati_chance = 0
+	thanati_chance = 1
 	sex_lock = MALE
 	minimal_character_age = 25
 
@@ -96,7 +96,7 @@
 	idtype = /obj/item/weapon/card/id/ltgrey
 	access = list(innkeep)
 	minimal_access = list(innkeep)
-	thanati_chance = 0
+	thanati_chance = 75
 	sex_lock = MALE
 	money = 14
 
@@ -128,7 +128,7 @@
 	access = list(innkeep)
 	minimal_access = list(innkeep)
 	jobdesc = "The darling wife of the Innkeeper - you run a family business. Loving your husband and cooking food while he tends to the hungry patrons is often your daily excercise. Some men flash awry looks at you, but its often met by the sound of a pumping shotgun."
-	thanati_chance = 0
+	thanati_chance = 75
 	money = 13
 	sex_lock = FEMALE
 
@@ -176,7 +176,7 @@
 	access = list(keep)
 	minimal_access = list(keep)
 	jobdesc = "The chief manservant and personal servant to the Baron. You handle all predictable and unpredictable needs of the household. Be it organizing stock for the scullery, preparing food for the Baron&#8217;s family and his guests, or arranging social events at the cost of the treasury."
-	thanati_chance = 0
+	thanati_chance = 75
 	money = 27
 	latejoin_locked = TRUE
 	sex_lock = MALE
@@ -210,7 +210,7 @@
 	idtype = /obj/item/weapon/card/id/ltgrey
 	access = list(keep)
 	minimal_access = list(keep)
-	thanati_chance = 0
+	thanati_chance = 75
 	latejoin_locked = TRUE
 	sex_lock = FEMALE
 	money = 25
@@ -412,13 +412,13 @@
 		return 1
 
 /datum/job/bum
-	title = "Pilgrim"
+	title = "Bum"
 	titlebr = "Mendigo"
 	flag = HOBO
 	department_head = list("Head of Personnel")
 	department_flag = CIVILIAN
 	faction = "Station"
-	total_positions = 60
+	total_positions = 14
 	spawn_positions = -1
 	supervisors = "No one"
 	selection_color = "#dddddd"
@@ -439,21 +439,15 @@
 		H.religion = "Gray Church"
 		H.real_name =  "[first_name]"
 		H.name = H.real_name
+		H.hygiene = -400
+		H.nutrition = rand(80, 180)
 		H.hidratacao = 150
 		H.verbs += /mob/living/carbon/human/proc/tellTheTruth
-		if(prob(15))
-			H.add_perk(/datum/perk/morestamina)
-		if(prob(15))
-			H.add_perk(/datum/perk/ref/value)
-		if(prob(15))
-			H.add_perk(/datum/perk/ref/strongback)
-		if(prob(15))
-			H.add_perk(/datum/perk/pathfinder)
-		if(prob(15))
-			H.add_perk(/datum/perk/ref/teaching)
-		if(prob(15))
+		if(prob(80))
 			H.add_perk(/datum/perk/illiterate)
-
+		if(prob(5))
+			H.equip_to_slot_or_del(new /obj/item/weapon/gun/projectile/automatic/pistol/magnum66/screamer23(H), slot_l_hand)
+			H.my_skills.ADD_SKILL(SKILL_RANGE, 11)
 		for(var/obj/item/weapon/reagent_containers/food/snacks/organ/O in H.organ_storage)
 			O.bumorgans()
 		H.equip_to_slot_or_del(new /obj/item/clothing/under/rank/migrant/bum(H), slot_w_uniform)
@@ -620,7 +614,7 @@
 	idtype = /obj/item/weapon/card/id/ltgrey
 	access = list(keep)
 	minimal_access = list(keep)
-	thanati_chance = 0
+	thanati_chance = 90
 	equip(var/mob/living/carbon/human/H)
 		if(!H)
 			return 0

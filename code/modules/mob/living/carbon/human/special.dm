@@ -197,12 +197,21 @@
 	description = "O sangue semita antigo fala em você, permitindo estimar o valor de um item à vontade."
 	descriptionen = "Ancient semite blood speaks in you, allowing to estimate an item's value at ease. "
 
+/datum/special/dst
+	name = "dst"
+	limitations = "Vadias Mulheres."
+	limitationsen = "Female Whore."
+	description = "Você tem uma DST mortal, transmita para 6 homens, sobreviva."
+	descriptionen = "You carry a deadly STD. Give it to 6 lucky men. Survive."
+	reward = "10 Cromossomos"
+	rewarden = "10 Chromosomes"
+
 /datum/special/unmarriedwoman
 	name = "unmarriedwoman"
 	limitations = "Mulheres Solteiras"
 	limitationsen = "Unmarried women"
 	description = "Procure um marido. Escape na Charon ou compre uma passagem para Vinfort."
-	descriptionen = "Find a husband.."
+	descriptionen = "Find a husband. Escape on the Babylon shuttle or have a ticket to Vinfort."
 	reward = "5 Cromossomos"
 	rewarden = "5 Chromosomes"
 
@@ -223,6 +232,15 @@
 	descriptionen = "Make sure the Baron survives. Survive."
 	reward = "2 Cromossomos"
 	rewarden = "2 Chromosomes"
+
+/datum/special/amusermany
+	name = "amusermany"
+	limitations = "Amuser"
+	limitationsen = "Amuser"
+	description = "Being a new traveller on this path, you should gather experience and good reputation. Survive, and you'll get +1 CHR for every client you serve tonight."
+	descriptionen = "Being a new traveller on this path, you should gather experience and good reputation. Survive, and you'll get +1 CHR for every client you serve tonight."
+	reward = ""
+	rewarden = ""
 
 /datum/special/gloves
 	name = "gloves"
@@ -395,6 +413,13 @@
 	description = "You are a rebellious successor. Screw noble customs."
 	descriptionen = "You are a rebellious successor. Screw noble customs."
 
+/datum/special/castrated
+	name = "castrated"
+	limitations = "Adult Males."
+	limitationsen = "Adult Males."
+	description = "You've lost your manhood."
+	descriptionen = "You've lost your manhood."
+
 /datum/special/circusfreak
 	name = "circusfreak"
 	limitations = "Adults."
@@ -402,6 +427,12 @@
 	description = "You were raised by itinerant performers and acrobats. Knife throwing, gymnastics, rope-walking."
 	descriptionen = "You were raised by itinerant performers and acrobats. Knife throwing, gymnastics, and rope-walking."
 
+/datum/special/doinked
+	name = "doinked"
+	limitations = "Females."
+	limitationsen = "Females."
+	description = "You have something extra."
+	descriptionen = "You have something extra."
 
 /mob/living/carbon/human/proc/special_load()
 	if(special)

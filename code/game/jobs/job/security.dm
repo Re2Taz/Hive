@@ -63,7 +63,7 @@ datum/job/ordinator
 	money = 25
 	jobdesc = "Also informally called Dragons, Tiamats are the personal guard of the Baron. Skilled in combat, their main priority is to protect their Lord, his family, and enforce his will. So long as they&#8217;re being paid, that is."
 	latejoin_locked = TRUE
-	thanati_chance = 0
+	thanati_chance = 1
 	equip(var/mob/living/carbon/human/H)
 		if(!H)
 			return 0
@@ -141,7 +141,7 @@ datum/job/ordinator
 	sex_lock = MALE
 	money = 25
 	latejoin_locked = TRUE
-	thanati_chance = 0
+	thanati_chance = 10
 	equip(var/mob/living/carbon/human/H)
 		if(!H)
 			return 0
@@ -251,7 +251,7 @@ var/global/Gatekeeper_Type = "Null"
 	minimal_player_age = 3
 	sex_lock = MALE
 	money = 13
-	thanati_chance = 0
+	thanati_chance = 1
 	jobdesc = "A fanatical warrior-monk who was eager to purify heretics, but gave an imprudent vow. Now it is his duty to watch the gates of the fortress, register migrants and throw scoundrels into magma. "
 	equip(var/mob/living/carbon/human/H)
 		if(!H)

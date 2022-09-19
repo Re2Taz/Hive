@@ -82,47 +82,6 @@
 	..()
 
 
-/obj/item/necronholster
-	name = "Holster"
-	desc = "a holster used to store a gun."
-	icon = 'icons/obj/weapons.dmi'
-	icon_state = "dagger_sheath0"
-	item_state = "dagger"
-	wrist_use = TRUE
-
-/obj/item/necronholster/iron/New()
-	src.contents += new/obj/item/weapon/kitchen/utensil/knife/dagger
-	src.icon_state = "dagger_sheath1"
-
-/obj/item/necronholster/attackby(obj/item/weapon/W as obj, mob/user as mob)
-	if(W.sheathicondagger && src.contents.len == 0)
-		user.drop_item(sound = 0)
-		src.contents += W
-		src.icon_state = W.sheathicondagger
-		playsound(src, W.equip_sound, 50, 1)
-
-
-/obj/item/necronholster/MouseDrop(var/obj/over_object)
-	var/mob/user = usr
-	switch(over_object.name)
-		if("r_hand")
-			user.drop_from_inventory(src)
-			user.put_in_r_hand(src)
-		if("l_hand")
-			user.drop_from_inventory(src)
-			user.put_in_l_hand(src)
-
-/obj/item/necronholster/attack_hand(mob/user as mob)
-	if(src.contents && src.loc == user)
-		var/obj/item/weapon/W = safepick(src.contents)
-		src.icon_state = "dagger_sheath0"
-		if(W)
-			playsound(src, W.drawsound, 50, 1)
-			user.visible_message("<span class='combatbold'>[user]</span> <span class='combat'>grabs a weapon.</span>")
-			user.put_in_hands(W)
-			return
-	..()
-
 /obj/item/sheath
 	name = "sword sheath"
 	desc = "a sheath used to store swords"

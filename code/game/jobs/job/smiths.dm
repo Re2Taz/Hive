@@ -14,7 +14,7 @@
 	minimal_access = list(smith)
 	jobdesc = "A specialized forger of weapons, knowledgeable in the replication of armaments of the earlier periods. The Baron often buys directly from you and your colleagues, as importation levies are more costly. Your weapons are the sharpest, and your steel the purest - you say so yourself!"
 	jobdescbr = "Ferreiro especializado em tudo o que a forja pode fazer."
-	thanati_chance = 0
+	thanati_chance = 75
 	equip(var/mob/living/carbon/human/H)
 		if(!H)
 			return 0
@@ -46,7 +46,7 @@
 	minimal_access = list(smith)
 	jobdesc = "A blacksmith specializing in the smithing of armor. Your attention to detail is unprecedented - everyone tells you so, especially the garrison. Your importance to them as the Baron&#8217;s main local supplier of fitting protection means that they hold your trade in high esteem, and rightly so."
 	jobdescbr = "Ferreiro especializado em tudo o que a forja pode fazer."
-	thanati_chance = 0
+	thanati_chance = 75
 	equip(var/mob/living/carbon/human/H)
 		if(!H)
 			return 0
@@ -79,7 +79,7 @@
 	minimal_access = list(smith)
 	jobdesc = "The metalsmith crafts ornaments of fine design. You consider it true craftsmanship. Turning iron into a hunk of metal you can wear on your body or carry in your hand is one thing, but crafting true works of art - beating heated metal down for utilitarian or artistic purposes to sell to the residents of the fortress and having them appreciate your fine designs is another."
 	jobdescbr = "Ferreiro especializado em tudo o que a forja pode fazer."
-	thanati_chance = 0
+	thanati_chance = 75
 	equip(var/mob/living/carbon/human/H)
 		if(!H)
 			return 0
